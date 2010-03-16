@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A250CFDD-8E80-4340-844F-A3D6F1F0B002}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TW.LiveMeet.Server.Streaming</RootNamespace>
+    <AssemblyName>TW.LiveMeet.Server.Streaming</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Rules\AnnounceRule.cs" />
+    <Compile Include="SessionStateEngineFactory.cs" />
+    <Compile Include="Rules\ResponseRule.cs" />
+    <Compile Include="SessionTimerConstants.cs" />
+    <Compile Include="StateEvent\AnnounceEvent.cs" />
+    <Compile Include="StateEvent\MediaProtocolType.cs" />
+    <Compile Include="StateEvent\TimeOutEvent.cs" />
+    <Compile Include="Rules\TimeOutRule.cs" />
+    <Compile Include="StateEvent\TimeOutReason.cs" />
+    <Compile Include="SessionContext.cs" />
+    <Compile Include="AgentSession.cs" />
+    <Compile Include="Rules\RuleBase.cs" />
+    <Compile Include="Rules\RuleException.cs" />
+    <Compile Include="Rules\PlayRule.cs" />
+    <Compile Include="Rules\SetupRule.cs" />
+    <Compile Include="Rules\TearDownRule.cs" />
+    <Compile Include="StateEvent\EventBase.cs" />
+    <Compile Include="StateEvent\EventType.cs" />
+    <Compile Include="StateEvent\PlayEvent.cs" />
+    <Compile Include="StateEvent\ResponseEvent.cs" />
+    <Compile Include="StateEvent\SetupEvent.cs" />
+    <Compile Include="StateEvent\ResponseStatus.cs" />
+    <Compile Include="StateEvent\TearDownEvent.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SessionElaspedTimer.cs" />
+    <Compile Include="StateType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TW.Core\TW.Core.csproj">
+      <Project>{A3E4D596-FB0F-4A5C-B125-065B7BF6CA6E}</Project>
+      <Name>TW.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TW.LiveMeet.Common\TW.LiveMeet.Server.Common.csproj">
+      <Project>{112D4831-CEEC-493A-936F-196BDD35AA90}</Project>
+      <Name>TW.LiveMeet.Server.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TW.StateMachine\TW.StateMachine.csproj">
+      <Project>{8B65B1BB-18AE-4A64-AB99-CF43F690107F}</Project>
+      <Name>TW.StateMachine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

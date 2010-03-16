@@ -1,0 +1,2622 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A3E4D596-FB0F-4A5C-B125-065B7BF6CA6E/d:Sockets/f:SocketBase.cs" caret="0" fromTop="0" />
+      <File id="A3E4D596-FB0F-4A5C-B125-065B7BF6CA6E/d:Sockets/f:SocketEventArgs.cs" caret="0" fromTop="0" />
+      <File id="A3E4D596-FB0F-4A5C-B125-065B7BF6CA6E/d:Sockets/f:SocketExceptionEventArgs.cs" caret="0" fromTop="0" />
+      <File id="A3E4D596-FB0F-4A5C-B125-065B7BF6CA6E/d:Sockets/f:SocketMessageEventArgs.cs" caret="0" fromTop="0" />
+      <File id="A3E4D596-FB0F-4A5C-B125-065B7BF6CA6E/d:Collections/f:BlockingQueue.cs" caret="0" fromTop="0" />
+      <File id="3C5190C7-E1BF-446A-89E4-80908DEAFFCB/f:DesktopPlayerControl.Designer.cs" caret="0" fromTop="0" />
+      <File id="A3E4D596-FB0F-4A5C-B125-065B7BF6CA6E/d:Threading/f:Parallel.cs" caret="106" fromTop="5" />
+      <File id="5C9EA122-81C7-4584-A404-6EBF2C5CBDB8/f:RdapMessage.cs" caret="467" fromTop="14" />
+      <File id="5C9EA122-81C7-4584-A404-6EBF2C5CBDB8/d:Parser/f:RdapMessageParser.cs" caret="1601" fromTop="30" />
+      <File id="F398FF7C-79C4-4E2D-BE3D-936A1C0ABD59/f:RTPMessage.cs" caret="0" fromTop="0" />
+      <File id="83BBFA69-27F5-480E-A91B-A5814EEF0098/f:TcpMeetingBridgeAgentListener.cs" caret="0" fromTop="0" />
+      <File id="83BBFA69-27F5-480E-A91B-A5814EEF0098/f:TcpMeetingBridgeAgent.cs" caret="0" fromTop="0" />
+      <File id="83BBFA69-27F5-480E-A91B-A5814EEF0098/f:MeetingBridgeSubscribers.cs" caret="0" fromTop="0" />
+      <File id="83BBFA69-27F5-480E-A91B-A5814EEF0098/f:MeetingBridge.cs" caret="0" fromTop="0" />
+      <File id="83BBFA69-27F5-480E-A91B-A5814EEF0098/f:MeetingAgentType.cs" caret="0" fromTop="0" />
+      <File id="83BBFA69-27F5-480E-A91B-A5814EEF0098/f:IMeetingBridgeAgent.cs" caret="0" fromTop="0" />
+      <File id="83BBFA69-27F5-480E-A91B-A5814EEF0098/f:IMeetingBridge.cs" caret="0" fromTop="0" />
+      <File id="A250CFDD-8E80-4340-844F-A3D6F1F0B002/d:Rules/f:AnnounceRule.cs" caret="506" fromTop="17" />
+      <File id="5DC3DE05-FB3B-4263-9FF1-D08BC0104510/f:Program.cs" caret="0" fromTop="0" />
+      <File id="74629650-C502-4736-AE71-8C8FEEE382C0/f:SocketStorage.cs" caret="3305" fromTop="23" />
+      <File id="3C5190C7-E1BF-446A-89E4-80908DEAFFCB/f:DesktopPlayerControl.cs" caret="0" fromTop="0" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseLeft.cs" caret="0" fromTop="0" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseDrag.cs" caret="0" fromTop="0" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseRight.cs" caret="530" fromTop="16" />
+      <File id="2299B2B4-BCE7-4CB1-A131-5521EFE9D678/d:Command/f:DesktopCaptureTest.cs" caret="52" fromTop="1" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:DesktopCapture.cs" caret="2071" fromTop="61" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:KeyboardStroke.cs" caret="417" fromTop="18" />
+      <File id="A3E4D596-FB0F-4A5C-B125-065B7BF6CA6E/d:Native/f:User32.cs" caret="3751" fromTop="86" />
+      <File id="5C9EA122-81C7-4584-A404-6EBF2C5CBDB8/d:Messages/f:KeyboardEventMessage.cs" caret="1157" fromTop="16" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:DesktopCapture.cs" caret="3585" fromTop="29" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:DesktopCapture.cs" caret="2067" fromTop="17" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:DesktopCapture.cs" caret="2067" fromTop="3" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:DesktopCapture.cs" caret="2067" fromTop="4" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:DesktopCapture.cs" caret="2067" fromTop="1" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:DesktopCapture.cs" caret="2067" fromTop="1" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:DesktopCapture.cs" caret="2067" fromTop="59" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:DesktopCapture.cs" caret="1368" fromTop="4" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:DesktopCapture.cs" caret="1964" fromTop="16" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:DesktopCapture.cs" caret="2071" fromTop="13" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseRight.cs" caret="530" fromTop="30" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseRight.cs" caret="530" fromTop="19" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseRight.cs" caret="530" fromTop="15" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseRight.cs" caret="530" fromTop="13" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseRight.cs" caret="298" fromTop="5" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseRight.cs" caret="530" fromTop="12" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseRight.cs" caret="530" fromTop="26" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseRight.cs" caret="530" fromTop="21" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseRight.cs" caret="298" fromTop="1" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseRight.cs" caret="298" fromTop="1" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseRight.cs" caret="344" fromTop="18" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseRight.cs" caret="19" fromTop="2" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseRight.cs" caret="530" fromTop="24" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseRight.cs" caret="530" fromTop="25" />
+      <File id="571A15FD-725A-4649-9A5E-B37323E83F56/d:Command/f:MouseRight.cs" caret="530" fromTop="7" />
+      <File id="A3E4D596-FB0F-4A5C-B125-065B7BF6CA6E/d:Native/f:User32.cs" caret="3639" fromTop="17" />
+      <File id="A3E4D596-FB0F-4A5C-B125-065B7BF6CA6E/d:Native/f:User32.cs" caret="3750" fromTop="86" />
+      <File id="5C9EA122-81C7-4584-A404-6EBF2C5CBDB8/d:Messages/f:KeyboardEventMessage.cs" caret="325" fromTop="15" />
+      <File id="5C9EA122-81C7-4584-A404-6EBF2C5CBDB8/d:Messages/f:KeyboardEventMessage.cs" caret="325" fromTop="10" />
+      <File id="5C9EA122-81C7-4584-A404-6EBF2C5CBDB8/d:Messages/f:KeyboardEventMessage.cs" caret="1564" fromTop="26" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="void" priority="100" />
+      <Item value="User32Test" priority="0" />
+      <Item value="User32" priority="21" />
+      <Item value="Win32" priority="0" />
+      <Item value="SetUp" priority="1" />
+      <Item value="private" priority="217" />
+      <Item value="int" priority="215" />
+      <Item value="handleCount" priority="3" />
+      <Item value="Console" priority="13" />
+      <Item value="return" priority="216" />
+      <Item value="true" priority="25" />
+      <Item value="hwnd" priority="0" />
+      <Item value="public" priority="303" />
+      <Item value="WindowHandle" priority="0" />
+      <Item value="IntPtr" priority="11" />
+      <Item value="WindowInfo" priority="22" />
+      <Item value="position" priority="5" />
+      <Item value="Position" priority="7" />
+      <Item value="readonly" priority="119" />
+      <Item value="Size" priority="23" />
+      <Item value="Window" priority="16" />
+      <Item value="IEnumerable" priority="14" />
+      <Item value="k" priority="2" />
+      <Item value="IEnumerator" priority="0" />
+      <Item value="null" priority="69" />
+      <Item value="Assert" priority="25" />
+      <Item value="handles" priority="2" />
+      <Item value="Process" priority="7" />
+      <Item value="processes" priority="1" />
+      <Item value="List" priority="19" />
+      <Item value="GetEnumerator" priority="0" />
+      <Item value="Select" priority="2" />
+      <Item value="p" priority="16" />
+      <Item value="process" priority="12" />
+      <Item value="string" priority="177" />
+      <Item value="this" priority="77" />
+      <Item value="Kernel32" priority="0" />
+      <Item value="processId" priority="0" />
+      <Item value="Where" priority="1" />
+      <Item value="if" priority="133" />
+      <Item value="bool" priority="25" />
+      <Item value="new" priority="533" />
+      <Item value="EventArgs" priority="1" />
+      <Item value="OnProcessExited" priority="0" />
+      <Item value="hasExited" priority="0" />
+      <Item value="windows" priority="6" />
+      <Item value="false" priority="29" />
+      <Item value="foreach" priority="33" />
+      <Item value="IFormatProvider" priority="0" />
+      <Item value="var" priority="67" />
+      <Item value="Except" priority="0" />
+      <Item value="System" priority="2" />
+      <Item value="Linq" priority="2" />
+      <Item value="CreateLambda" priority="1" />
+      <Item value="window" priority="2" />
+      <Item value="i" priority="32" />
+      <Item value="for" priority="39" />
+      <Item value="Gdi32" priority="6" />
+      <Item value="handle" priority="1" />
+      <Item value="class" priority="10" />
+      <Item value="DesktopWindow" priority="2" />
+      <Item value="equals" priority="0" />
+      <Item value="right" priority="2" />
+      <Item value="top" priority="2" />
+      <Item value="bottom" priority="2" />
+      <Item value="obj" priority="11" />
+      <Item value="left" priority="1" />
+      <Item value="List&lt;Window&gt;" priority="1" />
+      <Item value="IList" priority="3" />
+      <Item value="Image" priority="5" />
+      <Item value="static" priority="47" />
+      <Item value="GetDesktopWindow" priority="1" />
+      <Item value="Desktop" priority="0" />
+      <Item value="desktopWindow" priority="0" />
+      <Item value="desktopImage" priority="0" />
+      <Item value="ref" priority="0" />
+      <Item value="windowRect" priority="4" />
+      <Item value="postion" priority="0" />
+      <Item value="GetAllWindows" priority="0" />
+      <Item value="command" priority="4" />
+      <Item value="MouseLeftTest" priority="0" />
+      <Item value="MouseLeft" priority="1" />
+      <Item value="returnValue" priority="0" />
+      <Item value="point" priority="1" />
+      <Item value="Test" priority="4" />
+      <Item value="DesktopCaptureTest" priority="0" />
+      <Item value="T" priority="32" />
+      <Item value="DesktopCapture" priority="3" />
+      <Item value="fileStorage" priority="4" />
+      <Item value="DesktopCaptureFileStorage" priority="1" />
+      <Item value="Environment" priority="0" />
+      <Item value="storage" priority="0" />
+      <Item value="folderName" priority="1" />
+      <Item value="base" priority="36" />
+      <Item value="filePath" priority="1" />
+      <Item value="baseFileName" priority="0" />
+      <Item value="fileIndex" priority="0" />
+      <Item value="Bitmap" priority="15" />
+      <Item value="MemoryStream" priority="11" />
+      <Item value="imageStream" priority="0" />
+      <Item value="ImageCodecInfo" priority="1" />
+      <Item value="ImageFormat" priority="3" />
+      <Item value="EncoderParameters" priority="0" />
+      <Item value="bmp" priority="4" />
+      <Item value="byte" priority="162" />
+      <Item value="objBitmap" priority="0" />
+      <Item value="bitmapData" priority="2" />
+      <Item value="FileStyleUriParser" priority="0" />
+      <Item value="Directory" priority="6" />
+      <Item value="GetFolderPath" priority="0" />
+      <Item value="files" priority="2" />
+      <Item value="Length" priority="100" />
+      <Item value="File" priority="0" />
+      <Item value="file" priority="0" />
+      <Item value="TestAttribute" priority="0" />
+      <Item value="ImageHelperTest" priority="0" />
+      <Item value="imageHelper" priority="1" />
+      <Item value="ImageHelper" priority="2" />
+      <Item value="namespace" priority="0" />
+      <Item value="NalRefIdc" priority="0" />
+      <Item value="enum" priority="3" />
+      <Item value="macroblock" priority="0" />
+      <Item value="Enum" priority="0" />
+      <Item value="Convert" priority="5" />
+      <Item value="throw" priority="25" />
+      <Item value="Exception" priority="11" />
+      <Item value="abstract" priority="22" />
+      <Item value="RBSP" priority="0" />
+      <Item value="interface" priority="9" />
+      <Item value="short" priority="3" />
+      <Item value="Block" priority="1" />
+      <Item value="levelOffset4X4Intra" priority="0" />
+      <Item value="lumaAcBlk" priority="0" />
+      <Item value="lumaDcBlk" priority="0" />
+      <Item value="ResidualBlockInfo" priority="0" />
+      <Item value="mOrig" priority="1" />
+      <Item value="mbWidth" priority="0" />
+      <Item value="M0" priority="5" />
+      <Item value="l" priority="1" />
+      <Item value="m" priority="0" />
+      <Item value="m4Inv" priority="1" />
+      <Item value="dcWidth" priority="0" />
+      <Item value="BaselineProfileFactory" priority="0" />
+      <Item value="mOrigCb" priority="1" />
+      <Item value="mbWidthC" priority="0" />
+      <Item value="bufferY" priority="1" />
+      <Item value="y" priority="6" />
+      <Item value="width" priority="12" />
+      <Item value="YuvFormat" priority="3" />
+      <Item value="SliceType" priority="2" />
+      <Item value="type" priority="11" />
+      <Item value="coeffLevel" priority="0" />
+      <Item value="coeffRun" priority="0" />
+      <Item value="VideoFormat" priority="9" />
+      <Item value="yuvType" priority="1" />
+      <Item value="size" priority="3" />
+      <Item value="maxDataLength" priority="0" />
+      <Item value="frameRate" priority="0" />
+      <Item value="protected" priority="24" />
+      <Item value="encoding" priority="0" />
+      <Item value="YuvFormatType" priority="9" />
+      <Item value="YUV" priority="0" />
+      <Item value="Stream" priority="5" />
+      <Item value="override" priority="17" />
+      <Item value="long" priority="8" />
+      <Item value="nalu" priority="2" />
+      <Item value="value" priority="7" />
+      <Item value="data" priority="38" />
+      <Item value="frameSize" priority="3" />
+      <Item value="UnmanagedImage" priority="6" />
+      <Item value="r" priority="0" />
+      <Item value="g" priority="0" />
+      <Item value="YCbCr" priority="2" />
+      <Item value="UnsupportedImageFormatException" priority="0" />
+      <Item value="yuvFormatType" priority="1" />
+      <Item value="unsafe" priority="0" />
+      <Item value="srcImage" priority="1" />
+      <Item value="height" priority="12" />
+      <Item value="Initialize" priority="0" />
+      <Item value="crvTab" priority="0" />
+      <Item value="cguTab" priority="0" />
+      <Item value="Converter" priority="4" />
+      <Item value="RGBConverter" priority="0" />
+      <Item value="converter" priority="6" />
+      <Item value="image" priority="4" />
+      <Item value="destImage" priority="5" />
+      <Item value="convert" priority="0" />
+      <Item value="YuvConverter" priority="0" />
+      <Item value="yuvConverter" priority="0" />
+      <Item value="destImage1" priority="4" />
+      <Item value="clpIndex" priority="1" />
+      <Item value="uint" priority="32" />
+      <Item value="Codec" priority="2" />
+      <Item value="Format" priority="11" />
+      <Item value="FormatType" priority="6" />
+      <Item value="RgbCodec" priority="0" />
+      <Item value="Frame" priority="15" />
+      <Item value="sizeOfFrame" priority="4" />
+      <Item value="RgbFormatType" priority="2" />
+      <Item value="Encode" priority="0" />
+      <Item value="srcFrame" priority="18" />
+      <Item value="uData" priority="0" />
+      <Item value="u" priority="0" />
+      <Item value="vData" priority="0" />
+      <Item value="Data" priority="8" />
+      <Item value="is" priority="7" />
+      <Item value="RgbFrame" priority="15" />
+      <Item value="InvalidDataException" priority="2" />
+      <Item value="srcRgbFrame" priority="5" />
+      <Item value="yuvData" priority="6" />
+      <Item value="switch" priority="6" />
+      <Item value="object" priority="10" />
+      <Item value="format" priority="1" />
+      <Item value="case" priority="18" />
+      <Item value="destFormat" priority="1" />
+      <Item value="as" priority="15" />
+      <Item value="srcVideoFormat" priority="1" />
+      <Item value="FrameType" priority="8" />
+      <Item value="default" priority="4" />
+      <Item value="EncodeToYuv420" priority="0" />
+      <Item value="destYuvFormat" priority="3" />
+      <Item value="NotSupportedException" priority="2" />
+      <Item value="IConvertible" priority="0" />
+      <Item value="YuvFrame" priority="3" />
+      <Item value="RgbFormat" priority="1" />
+      <Item value="destVideoFormat" priority="1" />
+      <Item value="Rgb24ToYuv420Converter" priority="1" />
+      <Item value="srcYuvFormat" priority="0" />
+      <Item value="else" priority="13" />
+      <Item value="src0" priority="3" />
+      <Item value="py1" priority="1" />
+      <Item value="py2" priority="1" />
+      <Item value="List&lt;byte&gt;" priority="0" />
+      <Item value="Yuv420ToRgb24Converter" priority="0" />
+      <Item value="rgbData" priority="1" />
+      <Item value="rgbFormatType" priority="0" />
+      <Item value="rgbType" priority="0" />
+      <Item value="yuvFrame" priority="3" />
+      <Item value="RgbToYuvConverter" priority="0" />
+      <Item value="YuvToRgbConverter" priority="0" />
+      <Item value="List&lt;byte[]&gt;" priority="1" />
+      <Item value="ConvertToPixelFormat" priority="0" />
+      <Item value="src1" priority="0" />
+      <Item value="src2" priority="0" />
+      <Item value="IConverter" priority="0" />
+      <Item value="Rgb24ToYuv420ConverterTest" priority="0" />
+      <Item value="bitmap" priority="1" />
+      <Item value="RGB24ToYUV444Converter" priority="0" />
+      <Item value="frameRgb" priority="2" />
+      <Item value="Create" priority="2" />
+      <Item value="frameWidth" priority="3" />
+      <Item value="frameHeight" priority="4" />
+      <Item value="Copy" priority="1" />
+      <Item value="dataPtr" priority="0" />
+      <Item value="FillPixelInfo" priority="0" />
+      <Item value="frame" priority="24" />
+      <Item value="RgbPixelFormatType" priority="5" />
+      <Item value="rgbPtrs" priority="0" />
+      <Item value="VideoSequence" priority="0" />
+      <Item value="RGB24ToYUV420Converter" priority="1" />
+      <Item value="rgbFrame" priority="1" />
+      <Item value="vs" priority="1" />
+      <Item value="DataPtr" priority="0" />
+      <Item value="DataLength" priority="2" />
+      <Item value="UnmanagedMemoryCopyHelper" priority="0" />
+      <Item value="bitmapStream" priority="0" />
+      <Item value="Rectangle" priority="1" />
+      <Item value="IHeader" priority="0" />
+      <Item value="FrameFactory" priority="9" />
+      <Item value="sourceFrame" priority="0" />
+      <Item value="destFrame" priority="1" />
+      <Item value="destIntermediateFrame" priority="1" />
+      <Item value="NullFrame" priority="1" />
+      <Item value="NullReferenceException" priority="0" />
+      <Item value="dataSegment" priority="3" />
+      <Item value="OutOfMemoryException" priority="0" />
+      <Item value="socketBase" priority="0" />
+      <Item value="event" priority="4" />
+      <Item value="EventHandler" priority="0" />
+      <Item value="SocketExceptionEventArgs" priority="1" />
+      <Item value="OnExceptionThrown" priority="0" />
+      <Item value="delegate" priority="8" />
+      <Item value="IPEndPoint" priority="3" />
+      <Item value="BinaryReader" priority="1" />
+      <Item value="BinaryWriter" priority="9" />
+      <Item value="bw" priority="4" />
+      <Item value="length" priority="9" />
+      <Item value="ms" priority="2" />
+      <Item value="commandBytes" priority="0" />
+      <Item value="Message" priority="0" />
+      <Item value="CustomMessageParser" priority="0" />
+      <Item value="messageHandler" priority="6" />
+      <Item value="MessageBase" priority="0" />
+      <Item value="messageSize" priority="0" />
+      <Item value="messageData" priority="9" />
+      <Item value="CustomMessageField" priority="3" />
+      <Item value="MESSAGE_TYPE_POSITION" priority="2" />
+      <Item value="MESSAGE_LENGTH_POSITION" priority="1" />
+      <Item value="MESSAGE_TYPE_LENGTH" priority="1" />
+      <Item value="MESSAGE_LENGTH_LENGTH" priority="1" />
+      <Item value="MESSAGE_DATA_LENGTH" priority="0" />
+      <Item value="MESSAGE_DATA_POSITION" priority="0" />
+      <Item value="FifoStream" priority="20" />
+      <Item value="messageStream" priority="10" />
+      <Item value="messageInBytes" priority="1" />
+      <Item value="CustomMessageParsingState" priority="0" />
+      <Item value="State" priority="37" />
+      <Item value="events" priority="3" />
+      <Item value="List&lt;Event&gt;" priority="0" />
+      <Item value="Dictionary" priority="11" />
+      <Item value="eventObj" priority="12" />
+      <Item value="StateEvent" priority="7" />
+      <Item value="stateEvent" priority="2" />
+      <Item value="StateEngine" priority="11" />
+      <Item value="stateName" priority="3" />
+      <Item value="ChangeState" priority="2" />
+      <Item value="changeState" priority="1" />
+      <Item value="stateEventHandler" priority="1" />
+      <Item value="SetState" priority="0" />
+      <Item value="engineObj" priority="2" />
+      <Item value="states" priority="15" />
+      <Item value="out" priority="25" />
+      <Item value="IState" priority="2" />
+      <Item value="StateEngineConfiguration" priority="2" />
+      <Item value="stateEventObjs" priority="0" />
+      <Item value="Dictionary&lt;string,OnStateEvent&gt;" priority="0" />
+      <Item value="configuration" priority="10" />
+      <Item value="stateObj" priority="6" />
+      <Item value="using" priority="3" />
+      <Item value="Expressions" priority="0" />
+      <Item value="OnStateEvent" priority="0" />
+      <Item value="stateEventObj" priority="2" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="stateEngineObj" priority="0" />
+      <Item value="s" priority="0" />
+      <Item value="Dictionary&lt;string,Dictionary&lt;string,OnStateEvent&gt;&gt;" priority="0" />
+      <Item value="state" priority="23" />
+      <Item value="IStateEngine" priority="0" />
+      <Item value="engine" priority="0" />
+      <Item value="List&lt;StateRule&gt;" priority="0" />
+      <Item value="stateRules" priority="2" />
+      <Item value="IStateRule" priority="8" />
+      <Item value="eventName" priority="4" />
+      <Item value="EventRulePair" priority="13" />
+      <Item value="eventRulePair" priority="3" />
+      <Item value="stateEngine" priority="6" />
+      <Item value="rule" priority="2" />
+      <Item value="CustomMessageHeaderParser" priority="3" />
+      <Item value="while" priority="7" />
+      <Item value="messageDataParser" priority="0" />
+      <Item value="CustomMessageMessageParser" priority="0" />
+      <Item value="const" priority="14" />
+      <Item value="StateEngineFactory" priority="0" />
+      <Item value="List&lt;State&gt;" priority="1" />
+      <Item value="config" priority="1" />
+      <Item value="Dictionary&lt;string,List&lt;EventRulePair&gt;&gt;" priority="0" />
+      <Item value="List&lt;EventRulePair&gt;" priority="1" />
+      <Item value="CustomMessageParserConstants" priority="2" />
+      <Item value="stateRule" priority="2" />
+      <Item value="EventName" priority="0" />
+      <Item value="messageHeaderParser" priority="0" />
+      <Item value="break" priority="13" />
+      <Item value="stream" priority="1" />
+      <Item value="Custom" priority="1" />
+      <Item value="StateRule" priority="3" />
+      <Item value="RuleName" priority="0" />
+      <Item value="ruleName" priority="0" />
+      <Item value="Action" priority="8" />
+      <Item value="parser" priority="6" />
+      <Item value="CustomMessage" priority="0" />
+      <Item value="currentMessage" priority="5" />
+      <Item value="ArraySegment" priority="1" />
+      <Item value="dataBytes" priority="2" />
+      <Item value="States" priority="0" />
+      <Item value="message" priority="54" />
+      <Item value="CustomMessageHandler" priority="0" />
+      <Item value="typeof" priority="12" />
+      <Item value="LongLength" priority="1" />
+      <Item value="Messages" priority="2" />
+      <Item value="StateMachine" priority="2" />
+      <Item value="Dictionary&lt;string,State&gt;" priority="1" />
+      <Item value="RdaMessageParserStateEngine" priority="1" />
+      <Item value="ParseHeader" priority="0" />
+      <Item value="ParseData" priority="1" />
+      <Item value="ParseComplete" priority="0" />
+      <Item value="ToString" priority="1" />
+      <Item value="headerParseCompletedState" priority="0" />
+      <Item value="dataParsePendingState" priority="0" />
+      <Item value="dataParseCompletedState" priority="0" />
+      <Item value="Func" priority="5" />
+      <Item value="nextState" priority="2" />
+      <Item value="ruleObj" priority="0" />
+      <Item value="RdaMessage" priority="10" />
+      <Item value="RdaMessageType" priority="7" />
+      <Item value="byteReader" priority="1" />
+      <Item value="RdaMessageReader" priority="1" />
+      <Item value="messageReader" priority="2" />
+      <Item value="try" priority="6" />
+      <Item value="InsufficientRdaMessageException" priority="0" />
+      <Item value="catch" priority="2" />
+      <Item value="messageId" priority="0" />
+      <Item value="Id" priority="6" />
+      <Item value="id" priority="6" />
+      <Item value="TryParseData" priority="1" />
+      <Item value="Array" priority="1" />
+      <Item value="RdaMessageParser" priority="0" />
+      <Item value="RdaMessageParserState" priority="1" />
+      <Item value="RdaMessageParserStateEvent" priority="1" />
+      <Item value="messageObj" priority="0" />
+      <Item value="RdaMessageData" priority="0" />
+      <Item value="DesktopMessageProcessor" priority="0" />
+      <Item value="DesktopSnapShotMessageField" priority="0" />
+      <Item value="FORMAT_TYPE_POSITION" priority="0" />
+      <Item value="FORMAT_TYPE_LENGTH" priority="1" />
+      <Item value="WIDTH_POSITION" priority="0" />
+      <Item value="WIDTH_LENGTH" priority="1" />
+      <Item value="IMAGE_BYTES_POSITION" priority="1" />
+      <Item value="HEIGHT_LENGTH" priority="2" />
+      <Item value="IMAGE_BYTES_LENGTH_LENGTH" priority="0" />
+      <Item value="MouseClickType" priority="0" />
+      <Item value="char" priority="4" />
+      <Item value="MessageDataWriterBase" priority="1" />
+      <Item value="eventType" priority="3" />
+      <Item value="DesktopSnapShotMessage" priority="11" />
+      <Item value="DesktopMouseEventMessage" priority="1" />
+      <Item value="DesktopMouseDragEventMesssage" priority="1" />
+      <Item value="DesktopKeyboardEventMessage" priority="2" />
+      <Item value="RemoteDesktopAccessMessageType" priority="4" />
+      <Item value="RemoteDesktopAccessMessageDataBase" priority="0" />
+      <Item value="MessageDataReaderBase" priority="2" />
+      <Item value="RemoteDesktopAccessMessageWriter" priority="0" />
+      <Item value="RemoteDesktopAccessMessageDataFactory" priority="0" />
+      <Item value="fifoStream" priority="18" />
+      <Item value="DesktopSnapShotMessageReader" priority="1" />
+      <Item value="reader" priority="17" />
+      <Item value="Width" priority="1" />
+      <Item value="Height" priority="1" />
+      <Item value="ImageBytes" priority="2" />
+      <Item value="imageLength" priority="0" />
+      <Item value="writer" priority="6" />
+      <Item value="DesktopMouseEventMessageReader" priority="0" />
+      <Item value="DesktopKeyboardEventMessageReader" priority="0" />
+      <Item value="dataStream" priority="4" />
+      <Item value="internal" priority="14" />
+      <Item value="UnknownRDAMessage" priority="0" />
+      <Item value="RDA" priority="0" />
+      <Item value="RDAMessageDataBase" priority="0" />
+      <Item value="RDAMessageType" priority="5" />
+      <Item value="IRDAMessageHandler" priority="1" />
+      <Item value="DefaultRDAMessageHandler" priority="0" />
+      <Item value="RDAMessageDataFactory" priority="0" />
+      <Item value="RDAMessageReader" priority="2" />
+      <Item value="RDAMessage" priority="18" />
+      <Item value="messageType" priority="3" />
+      <Item value="Top" priority="0" />
+      <Item value="Windows" priority="0" />
+      <Item value="windowInfosLength" priority="1" />
+      <Item value="WINDOW_INFO_LENGTH" priority="1" />
+      <Item value="WindowInfos" priority="0" />
+      <Item value="windowInfo" priority="0" />
+      <Item value="DesktopWindowInfoMessage" priority="4" />
+      <Item value="InsufficientMemoryException" priority="1" />
+      <Item value="binaryReader" priority="3" />
+      <Item value="byteWriter" priority="0" />
+      <Item value="bytes" priority="1" />
+      <Item value="aWindowInfoLength" priority="0" />
+      <Item value="WindowInfoReader" priority="0" />
+      <Item value="RDAMessageWriter" priority="0" />
+      <Item value="binaryWriter" priority="4" />
+      <Item value="IDesktopCaptureStorage" priority="0" />
+      <Item value="RDAMessageBase" priority="14" />
+      <Item value="messageBuffer" priority="19" />
+      <Item value="formatTypePosition" priority="0" />
+      <Item value="widthPosition" priority="1" />
+      <Item value="heightPosition" priority="1" />
+      <Item value="imageBytePosition" priority="1" />
+      <Item value="UNKNOWN_VALUE" priority="3" />
+      <Item value="BitConverter" priority="2" />
+      <Item value="ImageBytesLength" priority="0" />
+      <Item value="windowInfoPosition" priority="0" />
+      <Item value="windowInfoLengthPosition" priority="0" />
+      <Item value="startIndex" priority="4" />
+      <Item value="WindowInfoCollection" priority="0" />
+      <Item value="WindowInfoLength" priority="1" />
+      <Item value="windowInfoCollection" priority="0" />
+      <Item value="memoryStream" priority="0" />
+      <Item value="leftPosition" priority="1" />
+      <Item value="LEFT_LENGTH" priority="0" />
+      <Item value="rightPosition" priority="1" />
+      <Item value="RIGHT_LENGTH" priority="0" />
+      <Item value="topPosition" priority="1" />
+      <Item value="TOP_LENGTH" priority="0" />
+      <Item value="ushort" priority="0" />
+      <Item value="eventTypePosition" priority="1" />
+      <Item value="EVENT_TYPE_LENGTH" priority="1" />
+      <Item value="X_POSITION_LENGTH" priority="0" />
+      <Item value="xStartPositionPosition" priority="0" />
+      <Item value="yStartPositionPosition" priority="0" />
+      <Item value="START_Y_POSITION_LENGTH" priority="0" />
+      <Item value="xEndPositionPosition" priority="0" />
+      <Item value="END_X_POSITION_LENGTH" priority="0" />
+      <Item value="keyStrokePosition" priority="3" />
+      <Item value="extraKeyStrokePosition" priority="1" />
+      <Item value="KEY_STROKE_LENGTH" priority="0" />
+      <Item value="action" priority="2" />
+      <Item value="rdaMessage" priority="5" />
+      <Item value="ParseMessageType" priority="0" />
+      <Item value="TimeZoneInfo" priority="0" />
+      <Item value="TW" priority="11" />
+      <Item value="HandleRDAMessage" priority="0" />
+      <Item value="currentRDAMessage" priority="0" />
+      <Item value="ProcessEvent" priority="0" />
+      <Item value="RDAMessageParserEvent" priority="0" />
+      <Item value="eventRulePairs" priority="3" />
+      <Item value="RDAMessageParserState" priority="2" />
+      <Item value="ParseId" priority="0" />
+      <Item value="ParseLength" priority="0" />
+      <Item value="PostMessage" priority="0" />
+      <Item value="NodeBase" priority="11" />
+      <Item value="NodeType" priority="7" />
+      <Item value="ActivityNode" priority="3" />
+      <Item value="nextNode" priority="3" />
+      <Item value="name" priority="3" />
+      <Item value="nodes" priority="0" />
+      <Item value="node" priority="3" />
+      <Item value="ruleSet" priority="1" />
+      <Item value="PixelFormatType" priority="12" />
+      <Item value="dataToReturn" priority="0" />
+      <Item value="b" priority="4" />
+      <Item value="messageBuffer1" priority="0" />
+      <Item value="messageBuffer2" priority="0" />
+      <Item value="MouseEventType" priority="1" />
+      <Item value="MessageType" priority="1" />
+      <Item value="rdaMessageTypePosition" priority="2" />
+      <Item value="dataLengthPosition" priority="0" />
+      <Item value="ID_LENGTH" priority="0" />
+      <Item value="dataPosition" priority="0" />
+      <Item value="desktopMessage" priority="1" />
+      <Item value="RDAMessageParserTest" priority="0" />
+      <Item value="RDAMessageParser" priority="1" />
+      <Item value="desktopMessageOutput" priority="1" />
+      <Item value="retVal" priority="0" />
+      <Item value="WorkFlowEngine" priority="0" />
+      <Item value="StartNode" priority="1" />
+      <Item value="EndNode" priority="1" />
+      <Item value="endNode" priority="0" />
+      <Item value="nameOfNode" priority="1" />
+      <Item value="startNode" priority="0" />
+      <Item value="IRDAParseCommand" priority="4" />
+      <Item value="AbandonedMutexException" priority="0" />
+      <Item value="messageLength" priority="1" />
+      <Item value="List&lt;IRDAParseCommand&gt;" priority="1" />
+      <Item value="RDAMessageTypeParseCommand" priority="0" />
+      <Item value="RDAMessageLengthParseCommand" priority="0" />
+      <Item value="RDAMessageDataParseCommand" priority="0" />
+      <Item value="startCommand" priority="0" />
+      <Item value="messageTypeParseCommand" priority="0" />
+      <Item value="InsufficientRDAMessageException" priority="1" />
+      <Item value="NullCommand" priority="0" />
+      <Item value="messageLengthParseCommand" priority="0" />
+      <Item value="messageDataParseCommand" priority="0" />
+      <Item value="currentRdaMessage" priority="1" />
+      <Item value="FifoStreamTest" priority="0" />
+      <Item value="fs" priority="14" />
+      <Item value="finalData" priority="3" />
+      <Item value="o" priority="1" />
+      <Item value="Byte" priority="0" />
+      <Item value="Thread" priority="3" />
+      <Item value="dataBuffer" priority="4" />
+      <Item value="readThread" priority="0" />
+      <Item value="writeThread" priority="0" />
+      <Item value="actualList" priority="0" />
+      <Item value="socket" priority="3" />
+      <Item value="listening" priority="1" />
+      <Item value="MeetingBridge" priority="3" />
+      <Item value="Dictionary&lt;string,IViewer&lt;T&gt;&gt;" priority="0" />
+      <Item value="IViewer" priority="2" />
+      <Item value="viewer" priority="2" />
+      <Item value="viewers" priority="2" />
+      <Item value="viewerObj" priority="2" />
+      <Item value="viewerId" priority="1" />
+      <Item value="dictionary" priority="0" />
+      <Item value="comparer" priority="1" />
+      <Item value="MeetingId" priority="0" />
+      <Item value="meetingId" priority="0" />
+      <Item value="ViewerDictionary&lt;T&gt;" priority="0" />
+      <Item value="IConnection" priority="23" />
+      <Item value="TcpSocketConnection" priority="1" />
+      <Item value="socketClient" priority="15" />
+      <Item value="e" priority="24" />
+      <Item value="IListener" priority="1" />
+      <Item value="listener" priority="1" />
+      <Item value="dataToRead" priority="4" />
+      <Item value="TcpSocketServer" priority="0" />
+      <Item value="tcpListener" priority="9" />
+      <Item value="IPAddress" priority="9" />
+      <Item value="TcpSocketClient" priority="11" />
+      <Item value="List&lt;TcpSocketClient&gt;" priority="0" />
+      <Item value="tcpSocketClient" priority="23" />
+      <Item value="Dictionary&lt;TcpSocketClient,TcpSocketConnection&gt;" priority="0" />
+      <Item value="sender" priority="3" />
+      <Item value="lock" priority="6" />
+      <Item value="EndPoint" priority="2" />
+      <Item value="MediaServer" priority="0" />
+      <Item value="TcpConnectionListener" priority="6" />
+      <Item value="ipAddress" priority="0" />
+      <Item value="namePosition" priority="3" />
+      <Item value="typeOfClientPosition" priority="2" />
+      <Item value="ipAddresssPosition" priority="1" />
+      <Item value="userIdPosition" priority="1" />
+      <Item value="nameLengthPosition" priority="0" />
+      <Item value="NAME_LENGTH_LENGTH" priority="0" />
+      <Item value="typeOfClientLengthPosition" priority="0" />
+      <Item value="TYPE_OF_CLIENT_LENGTH_LENGTH" priority="0" />
+      <Item value="IP_ADDRESS_LENGTH_LENGTH" priority="0" />
+      <Item value="USER_ID_LENGTH_LENGTH" priority="0" />
+      <Item value="PASSWORD_LENGTH_LENGTH" priority="0" />
+      <Item value="userIdLengthPosition" priority="0" />
+      <Item value="passwordLengthPosition" priority="0" />
+      <Item value="StringHelper" priority="1" />
+      <Item value="NameLength" priority="0" />
+      <Item value="passwordPosition" priority="0" />
+      <Item value="KEEP_ALIVE_INTERVAL_LENGTH" priority="0" />
+      <Item value="sessionIdLengthPosition" priority="0" />
+      <Item value="sessionIdPosition" priority="0" />
+      <Item value="SESSION_ID_LENGTH_LENGTH" priority="0" />
+      <Item value="virtual" priority="1" />
+      <Item value="field" priority="4" />
+      <Item value="ParameterCollection" priority="0" />
+      <Item value="fieldValue" priority="10" />
+      <Item value="InvalidSdpStringFormatException" priority="1" />
+      <Item value="Parse" priority="0" />
+      <Item value="GetValue" priority="1" />
+      <Item value="SdpFieldOrigin" priority="1" />
+      <Item value="StringTokenizer" priority="5" />
+      <Item value="SdpMessage" priority="8" />
+      <Item value="Name" priority="0" />
+      <Item value="Value" priority="1" />
+      <Item value="FieldName" priority="1" />
+      <Item value="SdpFieldValueBase" priority="0" />
+      <Item value="StringBuilder" priority="2" />
+      <Item value="Build" priority="0" />
+      <Item value="SdpFieldAttribute" priority="2" />
+      <Item value="attribute" priority="0" />
+      <Item value="SdpFieldBandwidth" priority="1" />
+      <Item value="fieldBandwidth" priority="0" />
+      <Item value="fieldConnection" priority="0" />
+      <Item value="SdpFieldConnection" priority="0" />
+      <Item value="ISdpFieldValueParser" priority="3" />
+      <Item value="ISdpFieldValue" priority="25" />
+      <Item value="fieldAttribute" priority="1" />
+      <Item value="mediaDescription" priority="2" />
+      <Item value="SdpFieldMediaDescription" priority="0" />
+      <Item value="fieldOrigin" priority="2" />
+      <Item value="fieldTime" priority="3" />
+      <Item value="SdpFieldTime" priority="1" />
+      <Item value="SdpMessageParser" priority="0" />
+      <Item value="sdpMessage" priority="3" />
+      <Item value="MediaFmts" priority="0" />
+      <Item value="List&lt;uint&gt;" priority="0" />
+      <Item value="GetFieldValue" priority="7" />
+      <Item value="stringBuffer" priority="2" />
+      <Item value="SdpFieldParserBase" priority="0" />
+      <Item value="SdpMediaDescriptionParser" priority="0" />
+      <Item value="commands" priority="0" />
+      <Item value="Dictionary&lt;string,ISdpFieldValueParser&gt;" priority="0" />
+      <Item value="stringBuilder" priority="8" />
+      <Item value="time" priority="0" />
+      <Item value="SdpFieldVersion" priority="0" />
+      <Item value="SdpFieldZoneAdjustments" priority="0" />
+      <Item value="IConnectionContext" priority="2" />
+      <Item value="connectionContext" priority="10" />
+      <Item value="IMessageParser" priority="3" />
+      <Item value="client" priority="4" />
+      <Item value="readStream" priority="1" />
+      <Item value="messageParser" priority="3" />
+      <Item value="messageParserFactory" priority="1" />
+      <Item value="MessageParserBase" priority="0" />
+      <Item value="connection" priority="32" />
+      <Item value="connections" priority="3" />
+      <Item value="List&lt;IConnection&gt;" priority="1" />
+      <Item value="MessageParserFactory" priority="1" />
+      <Item value="createObjectMethods" priority="1" />
+      <Item value="handler" priority="2" />
+      <Item value="Factory" priority="5" />
+      <Item value="factory" priority="4" />
+      <Item value="TcpConnection" priority="5" />
+      <Item value="onCreateTcpMessageParser" priority="0" />
+      <Item value="arguments" priority="5" />
+      <Item value="Type" priority="2" />
+      <Item value="ObjectFactory" priority="0" />
+      <Item value="ConnectionContext" priority="15" />
+      <Item value="FactoryBase" priority="0" />
+      <Item value="TestClass1" priority="0" />
+      <Item value="arg1" priority="0" />
+      <Item value="arg2" priority="0" />
+      <Item value="arg3" priority="0" />
+      <Item value="FactoryTestProxy" priority="4" />
+      <Item value="proxy" priority="0" />
+      <Item value="testClass1" priority="2" />
+      <Item value="testClass3" priority="0" />
+      <Item value="RegisterMessage" priority="0" />
+      <Item value="RegisterAckStatus" priority="1" />
+      <Item value="UnRegisterAckStatus" priority="0" />
+      <Item value="SdpConstants" priority="0" />
+      <Item value="Field" priority="1" />
+      <Item value="SdpBandWidthParseCommand" priority="0" />
+      <Item value="SdpConnectionDataParseCommand" priority="0" />
+      <Item value="SdpEmailAddressParseCommand" priority="0" />
+      <Item value="SdpEncryptionKeyParseCommand" priority="0" />
+      <Item value="SdpMediaDescriptionsParseCommand" priority="0" />
+      <Item value="SdpOriginParseCommand" priority="0" />
+      <Item value="SdpPhoneNumberParseCommand" priority="0" />
+      <Item value="SdpSessionInformationParseCommand" priority="0" />
+      <Item value="SdpSessionNameParseCommand" priority="0" />
+      <Item value="SdpTimings" priority="0" />
+      <Item value="SdpUriParseCommand" priority="1" />
+      <Item value="SdpVersionParseCommand" priority="0" />
+      <Item value="stringTokenizer" priority="1" />
+      <Item value="IMessageHandler" priority="10" />
+      <Item value="MessageHandlerBuilder" priority="0" />
+      <Item value="messageHandlerBuilder" priority="0" />
+      <Item value="TcpStream" priority="0" />
+      <Item value="buffer" priority="1" />
+      <Item value="offset" priority="0" />
+      <Item value="count" priority="2" />
+      <Item value="connectionContextFactory" priority="0" />
+      <Item value="where" priority="1" />
+      <Item value="MessageParserType" priority="0" />
+      <Item value="IMessageMapper" priority="0" />
+      <Item value="RdapMessage" priority="2" />
+      <Item value="RdapMessageParser" priority="4" />
+      <Item value="AgentRegistrator" priority="2" />
+      <Item value="RegistratorState" priority="5" />
+      <Item value="RegistratorEvent" priority="7" />
+      <Item value="Add" priority="0" />
+      <Item value="RegisterEventRule" priority="0" />
+      <Item value="FactoryMethod" priority="0" />
+      <Item value="TimeOutEventRule" priority="2" />
+      <Item value="typeOfEvent" priority="4" />
+      <Item value="Dictionary&lt;string,Type&gt;" priority="0" />
+      <Item value="TimeExpiresEventRule" priority="2" />
+      <Item value="UnKnownStateEventException" priority="0" />
+      <Item value="RegistratorStateRuleFactory" priority="2" />
+      <Item value="CreateStateRule" priority="0" />
+      <Item value="GetType" priority="0" />
+      <Item value="RegistratorStateFactory" priority="0" />
+      <Item value="stateEvents" priority="0" />
+      <Item value="idleState" priority="0" />
+      <Item value="registeredState" priority="0" />
+      <Item value="waitingForRegisterState" priority="0" />
+      <Item value="endState" priority="0" />
+      <Item value="Blocking" priority="0" />
+      <Item value="queue" priority="2" />
+      <Item value="clear" priority="0" />
+      <Item value="RdapMessageHandler" priority="3" />
+      <Item value="writeStream" priority="0" />
+      <Item value="Connection" priority="4" />
+      <Item value="IEventMessage" priority="6" />
+      <Item value="factoryInstance" priority="0" />
+      <Item value="eventRule" priority="1" />
+      <Item value="EventRuleBase" priority="0" />
+      <Item value="currentState" priority="4" />
+      <Item value="params" priority="0" />
+      <Item value="RegistratorContext" priority="3" />
+      <Item value="AgentProfile" priority="5" />
+      <Item value="agentStateContext" priority="1" />
+      <Item value="eventMessage" priority="25" />
+      <Item value="IResponseMessage" priority="4" />
+      <Item value="agentRegisterPool" priority="2" />
+      <Item value="IRequestMessage" priority="6" />
+      <Item value="registrator" priority="3" />
+      <Item value="agentProfile" priority="0" />
+      <Item value="agentContext" priority="16" />
+      <Item value="responseMessage" priority="1" />
+      <Item value="RegisterEventRequestMessage" priority="0" />
+      <Item value="requestMessage" priority="7" />
+      <Item value="IAgentMessageProcessor" priority="0" />
+      <Item value="messageProcessor" priority="3" />
+      <Item value="Event" priority="3" />
+      <Item value="AgentStateEvent" priority="0" />
+      <Item value="UnRegisterEventRequestMessage" priority="0" />
+      <Item value="ResponseMessageBase" priority="4" />
+      <Item value="agentMessageProcessor" priority="0" />
+      <Item value="AgentMessageProcessor" priority="1" />
+      <Item value="AgentContext" priority="0" />
+      <Item value="ElaspedTimer" priority="2" />
+      <Item value="sessionElapseTimer" priority="0" />
+      <Item value="TimeElaspedHandler" priority="1" />
+      <Item value="elaspedTimer" priority="4" />
+      <Item value="StopWatch" priority="3" />
+      <Item value="elapseTime" priority="0" />
+      <Item value="AgentState" priority="2" />
+      <Item value="TimeExpiresEventRequestMessage" priority="0" />
+      <Item value="TimeOutEventRequestMessage" priority="1" />
+      <Item value="ElapsedTime" priority="0" />
+      <Item value="stopWatch" priority="0" />
+      <Item value="RegistrationStatus" priority="1" />
+      <Item value="IAgentRegistrator" priority="2" />
+      <Item value="agentRegistrator" priority="2" />
+      <Item value="agentName" priority="2" />
+      <Item value="RegisterEventResponseMessage" priority="0" />
+      <Item value="MessageHandler" priority="6" />
+      <Item value="requestHandler" priority="6" />
+      <Item value="responseHandler" priority="6" />
+      <Item value="RdapMessageResponseHandler" priority="0" />
+      <Item value="UnRegistrationReason" priority="0" />
+      <Item value="sessionId" priority="3" />
+      <Item value="AgentName" priority="6" />
+      <Item value="ExpiredTime" priority="1" />
+      <Item value="StatusCode" priority="2" />
+      <Item value="SessionId" priority="3" />
+      <Item value="SessionContext" priority="4" />
+      <Item value="clientRegistrator" priority="0" />
+      <Item value="Guid" priority="4" />
+      <Item value="TypeCast" priority="0" />
+      <Item value="SetupEventMessage" priority="1" />
+      <Item value="ISessionContext" priority="7" />
+      <Item value="sessionContext" priority="19" />
+      <Item value="AgentSession" priority="4" />
+      <Item value="ConferenceId" priority="2" />
+      <Item value="agentSession" priority="4" />
+      <Item value="EventType" priority="5" />
+      <Item value="PlayEventMessage" priority="0" />
+      <Item value="TeardownEventMessage" priority="0" />
+      <Item value="AgentStateEngineFactory" priority="0" />
+      <Item value="ResponseEventMessage" priority="0" />
+      <Item value="TypeOfEvent" priority="0" />
+      <Item value="StatusCodeType" priority="0" />
+      <Item value="sessionExpiryTime" priority="1" />
+      <Item value="SessionOfAgent" priority="0" />
+      <Item value="StateType" priority="3" />
+      <Item value="SessionElaspedTimer" priority="2" />
+      <Item value="agentStateEngine" priority="0" />
+      <Item value="ElapsedTimerContext" priority="3" />
+      <Item value="expiryTime" priority="0" />
+      <Item value="Reason" priority="0" />
+      <Item value="TimoutReason" priority="0" />
+      <Item value="IMessageRequestHandler" priority="0" />
+      <Item value="IMessageResponseHandler" priority="0" />
+      <Item value="SessionTimeoutContext" priority="0" />
+      <Item value="SessionElapsedTimerConstants" priority="0" />
+      <Item value="Core" priority="0" />
+      <Item value="RdapConnection" priority="0" />
+      <Item value="IConnectionReadStream" priority="3" />
+      <Item value="IConnectionWriteStream" priority="3" />
+      <Item value="connectionStream" priority="2" />
+      <Item value="readParserStream" priority="0" />
+      <Item value="actualCount" priority="0" />
+      <Item value="ConnectionStream" priority="1" />
+      <Item value="IResponseHandler" priority="2" />
+      <Item value="syncroot" priority="0" />
+      <Item value="IConnectionListener" priority="1" />
+      <Item value="TcpConnections" priority="1" />
+      <Item value="tcpConnections" priority="0" />
+      <Item value="sessionRegistratorFactory" priority="0" />
+      <Item value="SessionRegistrator" priority="7" />
+      <Item value="RdapConnectionListener" priority="1" />
+      <Item value="connectionListener" priority="0" />
+      <Item value="TcpConnectionRegistrator" priority="2" />
+      <Item value="tcpConnectionRegister" priority="1" />
+      <Item value="RdapConnectionFactory" priority="0" />
+      <Item value="sessionRegistrator" priority="7" />
+      <Item value="connectionRegistrator" priority="0" />
+      <Item value="session" priority="0" />
+      <Item value="IAgentSession" priority="1" />
+      <Item value="sessionRegister" priority="0" />
+      <Item value="context" priority="1" />
+      <Item value="SocketBase" priority="1" />
+      <Item value="IRequest" priority="3" />
+      <Item value="Handler" priority="2" />
+      <Item value="request" priority="3" />
+      <Item value="Start" priority="0" />
+      <Item value="eventArgs" priority="0" />
+      <Item value="Stop" priority="0" />
+      <Item value="TcpMeetingBridgeRegistrator" priority="3" />
+      <Item value="TcpMeetingBridgeConnection" priority="0" />
+      <Item value="ConnectionId" priority="1" />
+      <Item value="connectionId" priority="16" />
+      <Item value="RTPInvalidMessageException" priority="0" />
+      <Item value="messagestream" priority="2" />
+      <Item value="RTPParseStateType" priority="3" />
+      <Item value="RTPMessageHeaderField" priority="0" />
+      <Item value="headerContent" priority="2" />
+      <Item value="TimeOutRule" priority="0" />
+      <Item value="AnnounceEvent" priority="2" />
+      <Item value="TKey" priority="2" />
+      <Item value="TValue" priority="1" />
+      <Item value="IRegistrator" priority="0" />
+      <Item value="PublisherUrl" priority="0" />
+      <Item value="publisherRegistrator" priority="1" />
+      <Item value="EndpointAddress" priority="0" />
+      <Item value="PublisherRegistrator" priority="1" />
+      <Item value="IRequestHandler" priority="2" />
+      <Item value="PresentationUrl" priority="0" />
+      <Item value="Close" priority="0" />
+      <Item value="tmpFilePath" priority="1" />
+      <Item value="BlockingQueue&lt;Event&gt;" priority="0" />
+      <Item value="eventQueue" priority="0" />
+      <Item value="start" priority="1" />
+      <Item value="stop" priority="1" />
+      <Item value="subscriberConnections" priority="7" />
+      <Item value="SyncDictionary&lt;string,IConnection&gt;" priority="0" />
+      <Item value="subscriberConnection" priority="2" />
+      <Item value="publisherConnection" priority="9" />
+      <Item value="dataToSend" priority="4" />
+      <Item value="BroadCastToClients" priority="0" />
+      <Item value="K" priority="1" />
+      <Item value="TcpMeetingBridge" priority="2" />
+      <Item value="TcpMeetingBridgePublisherListener" priority="1" />
+      <Item value="meetingBridge" priority="13" />
+      <Item value="meetingBridgeRegistrator" priority="3" />
+      <Item value="conferenceId" priority="4" />
+      <Item value="parserStream" priority="5" />
+      <Item value="ParserState" priority="3" />
+      <Item value="bodyLengthBytes" priority="2" />
+      <Item value="bodyLength" priority="2" />
+      <Item value="bodyBytes" priority="1" />
+      <Item value="imageToDisplay" priority="0" />
+      <Item value="SocketStorage" priority="2" />
+      <Item value="bs" priority="2" />
+      <Item value="publisher" priority="0" />
+      <Item value="dCapture" priority="1" />
+      <Item value="lastState" priority="0" />
+      <Item value="subscriber1" priority="0" />
+      <Item value="BlockingQueue&lt;byte[]&gt;" priority="0" />
+      <Item value="dataToRender" priority="0" />
+      <Item value="bytesOfData" priority="3" />
+      <Item value="RenderingEngine" priority="0" />
+      <Item value="cursorBMP" priority="0" />
+      <Item value="RdapMessageType" priority="1" />
+      <Item value="windowInfos" priority="0" />
+      <Item value="rdapMessage" priority="3" />
+      <Item value="windowInfoMessage" priority="4" />
+      <Item value="YUV420ToRGB24Converter" priority="0" />
+      <Item value="InvalidFrameDataException" priority="1" />
+      <Item value="YuvPixelFormatType" priority="0" />
+      <Item value="Marshal" priority="0" />
+      <Item value="desktopBMP" priority="0" />
+      <Item value="PixelFormat" priority="5" />
+      <Item value="pixelFormat" priority="2" />
+      <Item value="imgToResize" priority="1" />
+      <Item value="Drawing" priority="0" />
+      <Item value="Imaging" priority="0" />
+      <Item value="DateTime" priority="6" />
+      <Item value="Socket" priority="0" />
+      <Item value="GZipStream" priority="1" />
+      <Item value="byteToSend" priority="0" />
+      <Item value="CompressionMode" priority="1" />
+      <Item value="zs" priority="3" />
+      <Item value="zipBytesToSend" priority="1" />
+      <Item value="byteToRead" priority="1" />
+      <Item value="GetPixelFormatTypeForRgbFrame" priority="0" />
+      <Item value="MouseDragEventMesssage" priority="2" />
+      <Item value="mouseDragEventMesssage" priority="3" />
+      <Item value="KeyboardStroke" priority="1" />
+      <Item value="KeyboardEventMessage" priority="2" />
+      <Item value="double" priority="6" />
+      <Item value="imageSize" priority="2" />
+      <Item value="widthAspectRatio" priority="0" />
+      <Item value="desktopWidth" priority="1" />
+      <Item value="desktopHeight" priority="2" />
+      <Item value="captureStorage" priority="0" />
+      <Item value="desktopActualWidth" priority="0" />
+      <Item value="desktopCapture" priority="2" />
+      <Item value="heightAspectRatio" priority="0" />
+      <Item value="DesktopActualSize" priority="0" />
+      <Item value="FrameDimension" priority="0" />
+      <Item value="ss" priority="0" />
+      <Item value="MouseButtons" priority="0" />
+      <Item value="OnMouseDown" priority="0" />
+      <Item value="dragStartMouseEventType" priority="0" />
+      <Item value="dragStartX" priority="1" />
+      <Item value="dragStartY" priority="1" />
+      <Item value="dragEndX" priority="1" />
+      <Item value="dragEndY" priority="2" />
+      <Item value="dragEndMouseEventType" priority="1" />
+      <Item value="subscriber" priority="4" />
+      <Item value="c" priority="0" />
+      <Item value="desktopPlayerControl1" priority="0" />
+      <Item value="TcpMeetingBridgePublisher" priority="0" />
+      <Item value="GetSubscriber" priority="1" />
+      <Item value="TcpMeetingBridgeSubscriber" priority="0" />
+      <Item value="TcpMeetingBridgeAgent" priority="2" />
+      <Item value="SendToPublisher" priority="0" />
+      <Item value="TcpMeetingConnectionPoint" priority="2" />
+      <Item value="publisherListener" priority="5" />
+      <Item value="TcpMeetingBridgeSubscriberListener" priority="0" />
+      <Item value="subscriberListener" priority="5" />
+      <Item value="publisherPort" priority="0" />
+      <Item value="subscriberPort" priority="1" />
+      <Item value="TcpMeetingConnectionPointRegistrator" priority="0" />
+      <Item value="NewsStyleUriParser" priority="0" />
+      <Item value="connectionPoint" priority="0" />
+      <Item value="TcpMeetingBridgeSubscribers" priority="0" />
+      <Item value="agentType" priority="7" />
+      <Item value="MeetingBridgeAgentType" priority="6" />
+      <Item value="AddPublisher" priority="0" />
+      <Item value="RemovePublisher" priority="0" />
+      <Item value="AddSubscriber" priority="0" />
+      <Item value="TcpMeetingBridgeListenerType" priority="2" />
+      <Item value="listenerType" priority="1" />
+      <Item value="maxSubscribers" priority="0" />
+      <Item value="MeetingBridgeAgentListener" priority="1" />
+      <Item value="MeetingBridgeListenerType" priority="1" />
+      <Item value="publisherListeningPort" priority="0" />
+      <Item value="MeetingBridgeObj" priority="0" />
+      <Item value="subscriberListeningPort" priority="0" />
+      <Item value="endPoint" priority="4" />
+      <Item value="MeetingBridgeAgent" priority="0" />
+      <Item value="SyncDictionary&lt;EndPoint,string&gt;" priority="0" />
+      <Item value="endpointConnectionIdMap" priority="0" />
+      <Item value="thingToDelete" priority="0" />
+      <Item value="connectionIdMap" priority="0" />
+      <Item value="IMeetingBridge" priority="1" />
+      <Item value="EndpointPermission" priority="0" />
+      <Item value="meetingBridgeAgent" priority="0" />
+      <Item value="maxSubscribersCount" priority="0" />
+      <Item value="DoSend" priority="1" />
+      <Item value="pixelFormatType" priority="2" />
+      <Item value="IConnectionMeetingPoint" priority="0" />
+      <Item value="ConnectionPointFactory" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Win32.User32">
+      <Item value="GetWindowText" priority="0" />
+      <Item value="Rectangle" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine" priority="18" />
+      <Item value="Write" priority="0" />
+      <Item value="ReadLine" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="Greater" priority="0" />
+      <Item value="IsNotNull" priority="2" />
+      <Item value="IsTrue" priority="0" />
+      <Item value="AreEqual" priority="17" />
+      <Item value="AreSame" priority="2" />
+      <Item value="That" priority="0" />
+      <Item value="Equals" priority="1" />
+      <Item value="Fail" priority="1" />
+      <Item value="AreNotEqual" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Win32.MouseEvent+Flags">
+      <Item value="Rightup" priority="1" />
+      <Item value="Leftdown" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Process">
+      <Item value="GetProcesses" priority="3" />
+      <Item value="GetProcessById" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Process">
+      <Item value="Handle" priority="6" />
+      <Item value="Id" priority="4" />
+      <Item value="ProcessName" priority="5" />
+      <Item value="Exited" priority="1" />
+      <Item value="HasExited" priority="0" />
+      <Item value="MainWindowHandle" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Win32.Window">
+      <Item value="handle" priority="2" />
+      <Item value="hasExited" priority="0" />
+      <Item value="mainWindowHandle" priority="0" />
+      <Item value="GetScreenShot" priority="1" />
+      <Item value="processId" priority="0" />
+      <Item value="processName" priority="0" />
+      <Item value="ProcessId" priority="0" />
+      <Item value="ProcessName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Win32.Native.Kernel32">
+      <Item value="GetProcessId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToArray" priority="0" />
+      <Item value="Select" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add" priority="20" />
+      <Item value="ToArray" priority="12" />
+      <Item value="AddRange" priority="1" />
+      <Item value="ForEach" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IntPtr">
+      <Item value="Zero" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Image">
+      <Item value="Save" priority="3" />
+      <Item value="PixelFormat" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Win32.Native.Gdi32">
+      <Item value="SOURCE_COPY" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Size">
+      <Item value="Width" priority="14" />
+      <Item value="Height" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Win32.Position">
+      <Item value="left" priority="0" />
+      <Item value="Left" priority="0" />
+      <Item value="Right" priority="0" />
+      <Item value="Top" priority="0" />
+      <Item value="Bottom" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Win32.Native.User32">
+      <Item value="GetWindowRect" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Win32.Native.User32+Rectangle">
+      <Item value="Left" priority="0" />
+      <Item value="Right" priority="0" />
+      <Item value="Top" priority="0" />
+      <Item value="Bottom" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.DesktopAgent.Common.ICommand">
+      <Item value="Execute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="CurrentDirectory" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.DesktopAgent.Common.IDesktopCaptureStorage">
+      <Item value="Save" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid" priority="6" />
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.DesktopAgent.BO.DesktopWindow">
+      <Item value="SnapShot" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Bitmap">
+      <Item value="Save" priority="1" />
+      <Item value="MakeTransparent" priority="0" />
+      <Item value="Width" priority="0" />
+      <Item value="Height" priority="0" />
+      <Item value="PixelFormat" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Core.Helper.ImageHelper">
+      <Item value="BitmapDataFromBitmap" priority="1" />
+      <Item value="BitmapFromBitmapData" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="Exists" priority="2" />
+      <Item value="CreateDirectory" priority="1" />
+      <Item value="Delete" priority="0" />
+      <Item value="GetFiles" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.DesktopAgent.DesktopCaptureFileStorage">
+      <Item value="filePath" priority="0" />
+      <Item value="FolderPath" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Delete" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Enum">
+      <Item value="Parse" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Min" priority="4" />
+      <Item value="Abs" priority="10" />
+      <Item value="Sign" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Block">
+      <Item value="BLOCK_4x4_SIZE" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.H264Coder.media.codec.video.h264.parset.SequenceParameterSet">
+      <Item value="SeqParameterSetId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.H264Coder.media.util.io.H264EntropyOutputStream">
+      <Item value="WriteUeV" priority="0" />
+      <Item value="WriteU1" priority="0" />
+      <Item value="WriteSeV" priority="0" />
+      <Item value="WriteUv" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Array">
+      <Item value="Copy" priority="7" />
+      <Item value="Clear" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Point">
+      <Item value="X" priority="14" />
+      <Item value="Y" priority="13" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32" priority="1" />
+      <Item value="ToUInt32" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.H264Coder.VideoFormat">
+      <Item value="YUV" priority="0" />
+      <Item value="H264" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.H264Coder.YuvFormatHandler">
+      <Item value="GetQCIF" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.MemoryStream">
+      <Item value="WriteByte" priority="1" />
+      <Item value="Length" priority="0" />
+      <Item value="ToArray" priority="2" />
+      <Item value="Write" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.H264Coder.IO.H264OutputStream">
+      <Item value="nalu" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.H264Coder.Vcl.FrameBuffer">
+      <Item value="data" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.H264Coder.YuvFrameBuffer">
+      <Item value="yuvType" priority="0" />
+      <Item value="frameSize" priority="0" />
+      <Item value="CopyData" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.H264Coder.YuvFormatType">
+      <Item value="Yuv420" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.H264Coder.Vcl.VideoSequence">
+      <Item value="frameSize" priority="0" />
+      <Item value="FrameSize" priority="0" />
+      <Item value="Encode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Imaging.UnmanagedImage">
+      <Item value="ImageData" priority="1" />
+      <Item value="Width" priority="0" />
+      <Item value="Height" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IntPtr">
+      <Item value="ToPointer" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Core.Imaging.UnmanagedImage">
+      <Item value="Create" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.PixelFormat">
+      <Item value="Format24bppRgb" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Imaging.Converter">
+      <Item value="DoProcess" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Helper.ImageHelper">
+      <Item value="BitmapFromBitmapData" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Imaging.UnmanagedImage">
+      <Item value="Stride" priority="0" />
+      <Item value="ToManagedImage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Coder.FormatType">
+      <Item value="Video" priority="0" />
+      <Item value="RGB" priority="0" />
+      <Item value="YUV" priority="0" />
+      <Item value="H264" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Coder.Frame">
+      <Item value="Width" priority="8" />
+      <Item value="Height" priority="4" />
+      <Item value="Data" priority="8" />
+      <Item value="TypeOfFormat" priority="2" />
+      <Item value="Dispose" priority="5" />
+      <Item value="DataPtr" priority="0" />
+      <Item value="TypeOfFrame" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Coder.RgbFrame">
+      <Item value="Data" priority="6" />
+      <Item value="Width" priority="2" />
+      <Item value="Height" priority="2" />
+      <Item value="TypeOfFormat" priority="4" />
+      <Item value="rgbType" priority="0" />
+      <Item value="Dispose" priority="4" />
+      <Item value="DataLength" priority="0" />
+      <Item value="DataPtr" priority="1" />
+      <Item value="TypeOfRgbPixelFormat" priority="1" />
+      <Item value="Length" priority="0" />
+      <Item value="pixelFormatType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Coder.YuvFormatType">
+      <Item value="YUV420" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Coder.VideoFormat">
+      <Item value="TypeOfFrame" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Coder.FrameType">
+      <Item value="RGB" priority="8" />
+      <Item value="YUV" priority="5" />
+      <Item value="H264" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Coder.Format">
+      <Item value="Width" priority="1" />
+      <Item value="Height" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Coder.YuvFormat">
+      <Item value="TypeOfFrame" priority="0" />
+      <Item value="YUVFormatType" priority="3" />
+      <Item value="Width" priority="0" />
+      <Item value="Height" priority="0" />
+      <Item value="FrameRate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Coder.RgbFormat">
+      <Item value="FrameRate" priority="0" />
+      <Item value="RGBFormatType" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Coder.Codec">
+      <Item value="sizeOfFrame" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Coder.Rgb24ToYuv420Converter">
+      <Item value="Convert" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Coder.RgbFormatType">
+      <Item value="Rgb24" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Coder.YuvFrame">
+      <Item value="YUVType" priority="1" />
+      <Item value="Width" priority="0" />
+      <Item value="Height" priority="0" />
+      <Item value="Data" priority="6" />
+      <Item value="Length" priority="0" />
+      <Item value="TypeOfYuvPixelFormat" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Bitmap">
+      <Item value="FromFile" priority="1" />
+      <Item value="FromStream" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Imaging.BitmapData">
+      <Item value="Scan0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Runtime.InteropServices.Marshal">
+      <Item value="Copy" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Coder.Converter.RGB24ToYUV420Converter">
+      <Item value="Process" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Coder.RgbPixelFormatType">
+      <Item value="RGB24" priority="4" />
+      <Item value="RGB32" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Coder.YuvPixelFormatType">
+      <Item value="YUV444" priority="1" />
+      <Item value="YUV410" priority="0" />
+      <Item value="YUV411" priority="0" />
+      <Item value="YUV420" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Coder.RgbFrame">
+      <Item value="FromManagedImage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.Encoder">
+      <Item value="Compression" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.ImageFormat">
+      <Item value="Jpeg" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Core.Helper.ImageHelper">
+      <Item value="Resize" priority="1" />
+      <Item value="Clone" priority="0" />
+      <Item value="ConvertToJpeg" priority="0" />
+      <Item value="BitmapFromBitmapData" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Coder.FrameFactory">
+      <Item value="CreateFrame" priority="2" />
+      <Item value="CreateBitmap" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Coder.Converter.RGB24ToYUV444Converter">
+      <Item value="Process" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Coder.Frame">
+      <Item value="Null" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Coder.DataSegment">
+      <Item value="Length" priority="1" />
+      <Item value="Copy" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.BinaryWriter">
+      <Item value="Write" priority="14" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Handlers.MessageHandlerBase">
+      <Item value="ProcessMessage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Messages.MessageBase">
+      <Item value="data" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.IO.FifoStream">
+      <Item value="Write" priority="11" />
+      <Item value="Length" priority="18" />
+      <Item value="ReadTimeout" priority="0" />
+      <Item value="Read" priority="8" />
+      <Item value="Advance" priority="0" />
+      <Item value="Seek" priority="0" />
+      <Item value="Peek" priority="1" />
+      <Item value="WriteByte" priority="0" />
+      <Item value="ReadByte" priority="0" />
+      <Item value="Flush" priority="0" />
+      <Item value="CanRead" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Parsers.CustomMessageParser">
+      <Item value="messageStream" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Add" priority="13" />
+      <Item value="Remove" priority="4" />
+      <Item value="TryGetValue" priority="8" />
+      <Item value="AsEnumerable" priority="0" />
+      <Item value="Values" priority="4" />
+      <Item value="Keys" priority="0" />
+      <Item value="ContainsKey" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.StateMachine.StateEvent">
+      <Item value="Process" priority="0" />
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.StateMachine.StateEngineConfiguration">
+      <Item value="StateEngineName" priority="3" />
+      <Item value="StateEventObjs" priority="2" />
+      <Item value="StateObjs" priority="0" />
+      <Item value="StateNames" priority="0" />
+      <Item value="States" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.StateMachine.State">
+      <Item value="AddEvent" priority="0" />
+      <Item value="Name" priority="5" />
+      <Item value="stateRules" priority="0" />
+      <Item value="AddRule" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Key" priority="2" />
+      <Item value="Value" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.StateMachine.StateEngine">
+      <Item value="AddState" priority="0" />
+      <Item value="states" priority="1" />
+      <Item value="events" priority="1" />
+      <Item value="SetState" priority="3" />
+      <Item value="AddRule" priority="0" />
+      <Item value="ProcessEvent" priority="6" />
+      <Item value="CurrentState" priority="1" />
+      <Item value="Process" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2+ValueCollection">
+      <Item value="GetEnumerator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.StateMachine.EventRulePair">
+      <Item value="EventName" priority="1" />
+      <Item value="StateRule" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.StateMachine.StateEngineFactory">
+      <Item value="CreateStateEngine" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Server.Parsers.Custom.CustomMessageParserConstants">
+      <Item value="DATA_READ_EVENT" priority="2" />
+      <Item value="HEADER_READ_EVENT" priority="0" />
+      <Item value="HEADER_PARSE_COMPLETED" priority="2" />
+      <Item value="DATA_PARSE_PENDING" priority="0" />
+      <Item value="HEADER_PARSE_PENDING" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Parsers.Custom.CustomMessageHeaderParser">
+      <Item value="Execute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.StateMachine.IStateEngine">
+      <Item value="CurrentState" priority="1" />
+      <Item value="ProcessEvent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Server.Messages.CustomMessageField">
+      <Item value="MESSAGE_TYPE_LENGTH" priority="0" />
+      <Item value="MESSAGE_LENGTH_LENGTH" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Server.Parsers.Custom.CustomMessageParserStateMachineFactory">
+      <Item value="CreateStateEngine" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.StateMachine.StateRule">
+      <Item value="Method" priority="0" />
+      <Item value="NextState" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Parsers.Custom.CustomMessageParser">
+      <Item value="ParseHeader" priority="0" />
+      <Item value="ParseData" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Messages.CustomMessage">
+      <Item value="Type" priority="0" />
+      <Item value="Data" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Handlers.CustomMessageHandler">
+      <Item value="Process" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="ToString" priority="1" />
+      <Item value="AssemblyQualifiedName" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Rda.Parsers.RdaMessageParserStateEngine">
+      <Item value="stateEngineObj" priority="0" />
+      <Item value="CanExecuteFurther" priority="0" />
+      <Item value="Execute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Stream">
+      <Item value="Length" priority="4" />
+      <Item value="Write" priority="1" />
+      <Item value="Read" priority="1" />
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.BitConverter">
+      <Item value="ToInt64" priority="0" />
+      <Item value="ToUInt32" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Rda.Parsers.RdaMessageWriter">
+      <Item value="messageStream" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Rda.Parsers.RdaMessageReader">
+      <Item value="messageStream" priority="0" />
+      <Item value="ReadId" priority="0" />
+      <Item value="ReadDataLength" priority="0" />
+      <Item value="ReadData" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.BinaryReader">
+      <Item value="ReadInt32" priority="1" />
+      <Item value="ReadInt64" priority="0" />
+      <Item value="ReadBytes" priority="0" />
+      <Item value="ReadInt16" priority="0" />
+      <Item value="ReadByte" priority="2" />
+      <Item value="ReadChar" priority="0" />
+      <Item value="ReadUInt32" priority="0" />
+      <Item value="ReadUInt16" priority="0" />
+      <Item value="BaseStream" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Server.Rda.Messages.RdaMessageType">
+      <Item value="Unknown" priority="0" />
+      <Item value="DesktopSnapShot" priority="0" />
+      <Item value="DesktopMouseEvent" priority="0" />
+      <Item value="DesktopKeyboardEvent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Server.Rda.Parsers.RdaMessageParserStateEvent">
+      <Item value="ID_READ_EVENT" priority="1" />
+      <Item value="DATA_READ_EVENT" priority="2" />
+      <Item value="DATA_LENGTH_READ_EVENT" priority="1" />
+      <Item value="POST_MESSAGE_EVENT" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Server.Rda.Parsers.RdaMessageParserStateEngineFactory">
+      <Item value="CreateStateEngine" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Rda.Parsers.RdaMessageParser">
+      <Item value="TryParseId" priority="0" />
+      <Item value="TryParseLegth" priority="0" />
+      <Item value="messageStream" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Server.Rda.Parsers.RdaMessageParserState">
+      <Item value="ID_PARSE_PENDING" priority="0" />
+      <Item value="DATA_LENGTH_PARSE_PENDING" priority="0" />
+      <Item value="DATA_PARSE_PENDING" priority="0" />
+      <Item value="MESSAGE_PARSE_COMPLETE" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Rda.Messages.RdaMessage">
+      <Item value="Id" priority="1" />
+      <Item value="Data" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Rda.RdaMessageHandler">
+      <Item value="Process" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Protocols.Rda.Messages.RdaMessageType">
+      <Item value="DesktopSnapShotMessage" priority="0" />
+      <Item value="DesktopMouseEventMessage" priority="0" />
+      <Item value="UnknownMessage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Protocols.Rda.Messages.DesktopSnapShotMessage">
+      <Item value="FORMAT_TYPE_LENGTH" priority="0" />
+      <Item value="WIDTH_LENGTH" priority="0" />
+      <Item value="HEIGHT_LENGTH" priority="0" />
+      <Item value="IMAGE_BYTE_LENGTH" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Protocols.Rda.Messages.DesktopMouseEventMessage">
+      <Item value="EVENT_TYPE_LENGTH" priority="0" />
+      <Item value="X_POSITION_LENGTH" priority="0" />
+      <Item value="Y_POSITION_LENGTH" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Protocols.Rda.Messages.DesktopMouseDragEventMesssage">
+      <Item value="START_X_POSITION_LENGTH" priority="0" />
+      <Item value="START_Y_POSITION_LENGTH" priority="0" />
+      <Item value="END_X_POSITION_LENGTH" priority="0" />
+      <Item value="END_Y_POSITION_LENGTH" priority="0" />
+      <Item value="EVENT_TYPE_LENGTH" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Protocols.Rda.Messages.DesktopKeyboardEventMessage">
+      <Item value="EXTRA_KEYS_LENGTH" priority="0" />
+      <Item value="KEY_STROKE_LENGTH" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Protocols.Rda.Messages.RemoteDesktopAccessMessageType">
+      <Item value="DesktopSnapShotMessage" priority="0" />
+      <Item value="DesktopMouseEventMessage" priority="0" />
+      <Item value="DesktopMouseDragEventMesssage" priority="0" />
+      <Item value="DesktopKeyboardEventMessage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Protocols.Rda.IO.RemoteDesktopAccessMessageDataReaderFactory">
+      <Item value="CreateMessageDataReader" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Protocols.Rda.IO.DesktopSnapShotMessageReader">
+      <Item value="ReadFormatType" priority="0" />
+      <Item value="ReadWidth" priority="0" />
+      <Item value="ReadHeight" priority="0" />
+      <Item value="ReadImageBytesLength" priority="0" />
+      <Item value="ReadImageBytes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Protocols.Rda.IO.DesktopSnapShotMessageWriter">
+      <Item value="WriteFormatType" priority="0" />
+      <Item value="WriteWidth" priority="0" />
+      <Item value="WriteHeight" priority="0" />
+      <Item value="WriteImageBytesLength" priority="0" />
+      <Item value="WriteImageBytes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Protocols.Rda.IO.DesktopMouseEventMessageReader">
+      <Item value="ReadEventType" priority="0" />
+      <Item value="ReadXPosition" priority="0" />
+      <Item value="ReadYPosition" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Protocols.Rda.IO.DesktopMouseEventMessageWriter">
+      <Item value="WriteEventType" priority="0" />
+      <Item value="WriteXPosition" priority="0" />
+      <Item value="WriteYPosition" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Protocols.Rda.IO.DesktopMouseDragEventMesssageReader">
+      <Item value="ReadStartXPosition" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Protocols.Rda.IO.DesktopKeyboardEventMessageReader">
+      <Item value="ReadKeyStroke" priority="0" />
+      <Item value="ReadExtraKeys" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Protocols.Rda.IO.DesktopKeyboardEventMessageWriter">
+      <Item value="WriteKeyStroke" priority="0" />
+      <Item value="WriteExtraKeys" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RDA.Messages.RDAMessageType">
+      <Item value="DesktopSnapShotMessage" priority="0" />
+      <Item value="UnknownRDAMessage" priority="0" />
+      <Item value="MouseDragEventMesssage" priority="0" />
+      <Item value="DesktopWindowInfoMessage" priority="3" />
+      <Item value="MouseClickEventMessage" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.DesktopViewer.Handler.RDAMessageHandlerFactory">
+      <Item value="CreateRDAMessageHandler" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.DesktopViewer.Handler.IRDAMessageHandler">
+      <Item value="Process" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RDA.Messages.RDAMessageDataFactory">
+      <Item value="CreateRDAMessage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RDA.Messages.WindowInfo">
+      <Item value="BOTTOM_LENGTH" priority="2" />
+      <Item value="LEFT_LENGTH" priority="2" />
+      <Item value="RIGHT_LENGTH" priority="2" />
+      <Item value="TOP_LENGTH" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.Messages.WindowInfo">
+      <Item value="ToBytes" priority="1" />
+      <Item value="Left" priority="0" />
+      <Item value="Right" priority="0" />
+      <Item value="Bottom" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RDA.Messages.DesktopWindowInfoMessage">
+      <Item value="WINDOW_INFO_LENGTH" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.IO.DesktopWindowInfoMessageReader">
+      <Item value="ReadWindowInfosLength" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.Messages.RDAMessage">
+      <Item value="Id" priority="0" />
+      <Item value="Data" priority="4" />
+      <Item value="MessageType" priority="2" />
+      <Item value="ToBytes" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RDA.Parser.RDAMessageParserState">
+      <Item value="MessageTypeParsePending" priority="3" />
+      <Item value="MessageDataLengthParsePending" priority="4" />
+      <Item value="MessageDataParsePending" priority="2" />
+      <Item value="MessageParseComplete" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.Parser.RDAMessageParserState">
+      <Item value="ToString" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RDA.Parser.RDAMessageParserEvent">
+      <Item value="MessageTypeReadEvent" priority="1" />
+      <Item value="MessageDataLengthReadEvent" priority="1" />
+      <Item value="MessageDataReadEvent" priority="1" />
+      <Item value="ProcessMessageEvent" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.Parser.RDAMessageParserEvent">
+      <Item value="ToString" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.StateMachine.IRuleAction">
+      <Item value="Execute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.Parser.RDAMessageReader">
+      <Item value="ReadMessageType" priority="0" />
+      <Item value="BaseStream" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.WorkFlowMachine.Node.NodeType">
+      <Item value="Activity" priority="0" />
+      <Item value="Split" priority="0" />
+      <Item value="Start" priority="0" />
+      <Item value="End" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.WorkFlowMachine.Node.ActivityNode">
+      <Item value="nextNode" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.WorkFlowMachine.Node.NodeBase">
+      <Item value="Process" priority="3" />
+      <Item value="name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.WorkFlowMachine.Node.SplitNode">
+      <Item value="Condition" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.WorkFlowMachine.WorkFlowEngine">
+      <Item value="nodes" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RDA.Messages.PixelFormatType">
+      <Item value="RGB24" priority="0" />
+      <Item value="YUV420" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.Messages.DesktopWindowInfoMessage">
+      <Item value="ToBytes" priority="1" />
+      <Item value="FormatType" priority="0" />
+      <Item value="Width" priority="0" />
+      <Item value="Height" priority="0" />
+      <Item value="ImageBytes" priority="0" />
+      <Item value="WindowInfos" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.Messages.KeyboardEventMessage">
+      <Item value="KeyStroke" priority="0" />
+      <Item value="ExtraKeyStroke" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RDA.Messages.MouseEventType">
+      <Item value="Right" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.Messages.MouseClickEventMessage">
+      <Item value="EventType" priority="0" />
+      <Item value="XPosition" priority="0" />
+      <Item value="YPosition" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.Messages.MouseDragEventMesssage">
+      <Item value="StartXPosition" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RDA.Messages.RDAMessage">
+      <Item value="DATA_LENGTH_LENGTH" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.Parser.RDAMessageParser">
+      <Item value="TryReadMessage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.WorkFlowMachine.NodeType">
+      <Item value="Start" priority="0" />
+      <Item value="Activity" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.WorkFlowMachine.Node.NodeBase`1">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.RDAMessage">
+      <Item value="MessageType" priority="0" />
+      <Item value="Data" priority="3" />
+      <Item value="Length" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.Parser.Command.RDAMessageDataParseCommand">
+      <Item value="nextCommand" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.Parser.Command.IRDAParseCommand">
+      <Item value="Execute" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Start" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.IViewer`1">
+      <Item value="Id" priority="0" />
+      <Item value="Send" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.IConnection">
+      <Item value="Send" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Sockets.TcpSocketClient">
+      <Item value="Send" priority="3" />
+      <Item value="OnDataRecieved" priority="2" />
+      <Item value="OnExceptionThrown" priority="10" />
+      <Item value="Close" priority="4" />
+      <Item value="RemoteEp" priority="0" />
+      <Item value="LocalEp" priority="0" />
+      <Item value="Connect" priority="0" />
+      <Item value="Disconnect" priority="3" />
+      <Item value="RemoteEndPoint" priority="3" />
+      <Item value="ConnectionId" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.Connections.TcpSocketConnection">
+      <Item value="socketClient" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Sockets.SocketMessageEventArgs">
+      <Item value="Buffer" priority="16" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Sockets.TcpSocketServer">
+      <Item value="Listen" priority="1" />
+      <Item value="IsListening" priority="0" />
+      <Item value="Close" priority="1" />
+      <Item value="OnNewConnection" priority="0" />
+      <Item value="OnExceptionThrown" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.IPAddress">
+      <Item value="Any" priority="3" />
+      <Item value="Parse" priority="2" />
+      <Item value="Loopback" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Sockets.SocketEventArgs">
+      <Item value="Socket" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.Core.Connections.TcpSocketConnection">
+      <Item value="socketClient" priority="0" />
+      <Item value="connectionContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Length" priority="0" />
+      <Item value="Trim" priority="0" />
+      <Item value="TrimEnd" priority="0" />
+      <Item value="Remove" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.IPAddress">
+      <Item value="GetAddressBytes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.SDP.Field.SdpFieldAttribute">
+      <Item value="fieldValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.IO.StringReader">
+      <Item value="ReadUntil" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.SDP.Field.SdpFieldsTiming">
+      <Item value="AddFieldValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.SDP.ISdpFieldValue">
+      <Item value="FieldName" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.SDP.SdpMessage">
+      <Item value="Version" priority="1" />
+      <Item value="Attributes" priority="0" />
+      <Item value="BandWidth" priority="0" />
+      <Item value="ConnectionData" priority="0" />
+      <Item value="Email" priority="0" />
+      <Item value="EncryptionKey" priority="0" />
+      <Item value="Medias" priority="0" />
+      <Item value="Origin" priority="0" />
+      <Item value="Phone" priority="0" />
+      <Item value="SessionInformation" priority="0" />
+      <Item value="SessionName" priority="0" />
+      <Item value="Uri" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.SDP.ISdpFieldValueParser">
+      <Item value="Parse" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append" priority="3" />
+      <Item value="ToString" priority="1" />
+      <Item value="Length" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.SDP.Field.SdpFieldRepeatTime">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.Core.ConnectionContext">
+      <Item value="Connection1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.Core.Factory">
+      <Item value="Add" priority="1" />
+      <Item value="GetType" priority="0" />
+      <Item value="CreateObject" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.Core.MessageParserFactory`1">
+      <Item value="CreateMessageParser" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Test.FactoryTest+TestClass1">
+      <Item value="Var1" priority="0" />
+      <Item value="Var2" priority="0" />
+      <Item value="Var3" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Test.FactoryTest+TestClass3">
+      <Item value="GetType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Core.Test.FactoryTestProxy">
+      <Item value="CreateFactoryObject" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Test.FactoryTestProxy">
+      <Item value="Add" priority="0" />
+      <Item value="CreateObject" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Test.FactoryTestProxy+TestClass1">
+      <Item value="Var1" priority="0" />
+      <Item value="Var2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Test.FactoryTestProxy+TestClass3">
+      <Item value="GetClassName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.Messages.RegisterMessage">
+      <Item value="Name" priority="0" />
+      <Item value="IpAddress" priority="0" />
+      <Item value="TypeOfClient" priority="0" />
+      <Item value="UserId" priority="0" />
+      <Item value="Password" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.Messages.RegisterAckMessage">
+      <Item value="KeepAliveInterval" priority="0" />
+      <Item value="SessionId" priority="0" />
+      <Item value="Status" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RDA.Messages.RegisterAckStatus">
+      <Item value="Success" priority="0" />
+      <Item value="AuthenticationFailure" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.Messages.UnRegisterMessage">
+      <Item value="UserId" priority="0" />
+      <Item value="Password" priority="1" />
+      <Item value="SessionId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDA.Messages.UnRegisterAckMessage">
+      <Item value="Status" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RDA.Messages.UnRegisterAckStatus">
+      <Item value="UnknownError" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.SDP.SdpConstants">
+      <Item value="GetValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.SDP.Parser.Command.SdpAttributeParseCommand">
+      <Item value="GetValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.SDP.SdpMessageParser">
+      <Item value="stringMessageReader" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.IO.StringTokenizer">
+      <Item value="Length" priority="0" />
+      <Item value="ReadPeekToken" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.SDP.Parser.ISdpFieldValueParseCommand">
+      <Item value="Execute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Common.IMessageHandler`1">
+      <Item value="Process" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Common.MessageHandlerBuilder`1">
+      <Item value="CreateMessageParser" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.Core.Connection.TcpConnection">
+      <Item value="MessageStream" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Common.IFactory">
+      <Item value="Create" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.Core.Connection.TcpConnectionListener">
+      <Item value="connectionContextFactory" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.Core.ConnectionContextFactory">
+      <Item value="Create" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.Core.IConnection">
+      <Item value="MessageStream" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Common.IMessageParser`1">
+      <Item value="TryParseMessage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.ProxyServer.Registrator.RegistratorState">
+      <Item value="IDLE" priority="2" />
+      <Item value="REGISTERED" priority="1" />
+      <Item value="WAITING_FOR_REGISTER" priority="1" />
+      <Item value="END" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.ProxyServer.Registrator.RegistratorEvent">
+      <Item value="REGISTER_EVENT" priority="3" />
+      <Item value="GetTypeOfEvent" priority="0" />
+      <Item value="TIME_EXPIRES_EVENT" priority="0" />
+      <Item value="UNREGISTER_EVENT" priority="0" />
+      <Item value="TIMEOUT_EVENT" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Type">
+      <Item value="GetType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.ProxyServer.Registrator.StateRule.RegistratorStateRuleFactory">
+      <Item value="CreateObject" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Factory">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.ProxyServer.Registrator.RegistratorStateFactory">
+      <Item value="CreateState" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Queue`1">
+      <Item value="Clear" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Common.IMessageHandler">
+      <Item value="Process" priority="2" />
+      <Item value="Connection" priority="0" />
+      <Item value="ProcessResponse" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDAP.Handler.RdapMessageHandler">
+      <Item value="readParserStream" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.StateMachine.Event">
+      <Item value="Name" priority="0" />
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.ProxyServer.Registrator.StateRule.RegistratorStateRuleFactory">
+      <Item value="CreateInstance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.ProxyServer.Registrator.EventRule.EventRuleBase">
+      <Item value="connection" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.ProxyServer.Agent.AgentStateContext">
+      <Item value="ProfileOfAgent" priority="1" />
+      <Item value="MessageHandler" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.ProxyServer.Agent.EventMessage.RegisterEventMessage">
+      <Item value="Name" priority="0" />
+      <Item value="IpAddress" priority="0" />
+      <Item value="UserId" priority="0" />
+      <Item value="Password" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.ProxyServer.Agent.AgentStateEngine">
+      <Item value="messageHandler" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Registrator.RequestMessage.RegisterEventRequestMessage">
+      <Item value="AgentName" priority="3" />
+      <Item value="Capabilities" priority="0" />
+      <Item value="MessageHandler" priority="0" />
+      <Item value="SessionId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Common.IRequestMessage">
+      <Item value="AgentName" priority="1" />
+      <Item value="MessageHandler" priority="0" />
+      <Item value="EventType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Registrator.IAgentMessageProcessor">
+      <Item value="Process" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Registrator.AgentStateEvent">
+      <Item value="REGISTER_EVENT" priority="0" />
+      <Item value="TIME_EXPIRES_EVENT" priority="0" />
+      <Item value="TIMEOUT_EVENT" priority="0" />
+      <Item value="UNREGISTER_EVENT" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Registrator.IAgentContext">
+      <Item value="ProfileOfAgent" priority="4" />
+      <Item value="MessageHandler" priority="3" />
+      <Item value="RemoveAgentFromRegistrator" priority="0" />
+      <Item value="SessionId" priority="1" />
+      <Item value="RegistratorOfAgent" priority="1" />
+      <Item value="RemoveAgent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Registrator.AgentProfile">
+      <Item value="AgentName" priority="3" />
+      <Item value="ElapseTime" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Timers.Timer">
+      <Item value="Start" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.StopWatch">
+      <Item value="Start" priority="2" />
+      <Item value="TotalSeconds" priority="0" />
+      <Item value="Restart" priority="1" />
+      <Item value="Stop" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Registrator.AgentState">
+      <Item value="REGISTERED" priority="1" />
+      <Item value="WAITING_FOR_REGISTER" priority="1" />
+      <Item value="IDLE" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Registrator.ResponseMessage.RegistrationStatus">
+      <Item value="Success" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Registrator.AgentRegistrator">
+      <Item value="Remove" priority="0" />
+      <Item value="Add" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.ElaspedTimer">
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Common.IConnection">
+      <Item value="Write" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.ProxyServer.Handler.RdapMessageRequestHandler">
+      <Item value="Connection" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.ProxyServer.Handler.RdapMessageResponseHandler">
+      <Item value="Connection" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Registrator.ResponseMessage.UnRegistrationReason">
+      <Item value="TimeOut" priority="0" />
+      <Item value="RemoteTermination" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Registrator.RequestMessage.UnRegisterEventRequestMessage">
+      <Item value="AgentName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.MediaServer.StateType">
+      <Item value="INIT" priority="8" />
+      <Item value="PLAYING" priority="4" />
+      <Item value="READY" priority="4" />
+      <Item value="END" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.ClientRegistrator">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.SessionContext">
+      <Item value="profileOfAgent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.AgentSession">
+      <Item value="Id" priority="0" />
+      <Item value="ExpiryTime" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.Messages.SetupEventMessage">
+      <Item value="SessionId" priority="3" />
+      <Item value="ConferenceId" priority="1" />
+      <Item value="MessageHandler" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.ISessionContext">
+      <Item value="SessionId" priority="0" />
+      <Item value="ConferenceId" priority="0" />
+      <Item value="Register" priority="0" />
+      <Item value="Process" priority="0" />
+      <Item value="SessionOfAgent" priority="3" />
+      <Item value="GetSession" priority="0" />
+      <Item value="Id" priority="0" />
+      <Item value="UnRegister" priority="0" />
+      <Item value="ResponseTimeoutContext" priority="2" />
+      <Item value="SessionTimeoutContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.MediaServer.Messages.EventType">
+      <Item value="PLAY" priority="3" />
+      <Item value="TEARDOWN" priority="2" />
+      <Item value="SETUP" priority="1" />
+      <Item value="SESSION_TIME_OUT" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.MediaServer.AgentStateEngineFactory">
+      <Item value="Create" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.AgentRegistrator">
+      <Item value="TryGetValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.Messages.PlayEventMessage">
+      <Item value="SessionId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.IAgentSession">
+      <Item value="Process" priority="0" />
+      <Item value="AgentName" priority="0" />
+      <Item value="ConferenceId" priority="1" />
+      <Item value="ProcessResquest" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.MediaServer.Messages.StatusCodeType">
+      <Item value="Continue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Common.IMessageResponseHandler">
+      <Item value="Process" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.MediaServer.ElapsedTimerContext">
+      <Item value="ExpiryTime" priority="0" />
+      <Item value="IsExpired" priority="1" />
+      <Item value="StopWatchObj" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.MediaServer.Messages.TimoutReason">
+      <Item value="SessionTimeout" priority="0" />
+      <Item value="ResponseReceivedTimeout" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Common.MessageHandler">
+      <Item value="RequestHandler" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Common.IConnectionReadStream">
+      <Item value="Read" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Common.IConnectionWriteStream">
+      <Item value="Write" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDAP.Parser.RdapMessageParser">
+      <Item value="TryParseMessage" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Common.ConnectionStream">
+      <Item value="Write" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Common.TcpConnection">
+      <Item value="ConnectionStream" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Common.Connection.Tcp.TcpConnectionStream">
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Common.Connection.IConnection">
+      <Item value="Close" priority="3" />
+      <Item value="Read" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="OnException" priority="0" />
+      <Item value="Write" priority="0" />
+      <Item value="ConnectionId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Common.Connection.Tcp.TcpConnections">
+      <Item value="Remove" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Server.Streaming.SessionRegistratorFactory">
+      <Item value="Create" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Common.Connection.Tcp.TcpConnectionRegistrator">
+      <Item value="TryGetValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Rdap.Handler.SessionRegistrator">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Streaming.SessionContext">
+      <Item value="SessionId" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Common.Connection.SessionRegistrator">
+      <Item value="TryGetValue" priority="0" />
+      <Item value="Add" priority="0" />
+      <Item value="Remove" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Common.Connection.ConnectionContext">
+      <Item value="Handler" priority="0" />
+      <Item value="Session" priority="2" />
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Common.MessageHandler">
+      <Item value="session" priority="0" />
+      <Item value="RequestHandler" priority="0" />
+      <Item value="ResponseHandler" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Common.Connection.ISessionContext">
+      <Item value="SessionOfAgent" priority="1" />
+      <Item value="SessionId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Common.Connection.Tcp.TcpConnectionListener">
+      <Item value="Start" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Rdap.Connection.RdapConnectionListener">
+      <Item value="Start" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Timers.ElaspedTimer">
+      <Item value="Start" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Streaming.SessionElaspedTimer">
+      <Item value="Start" priority="0" />
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Timers.ElapsedTimerContext">
+      <Item value="StopWatchObj" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Timers.StopWatch">
+      <Item value="Restart" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Streaming.SessionRegistrator">
+      <Item value="Add" priority="0" />
+      <Item value="Remove" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Common.IRequestHandler">
+      <Item value="Process" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Common.ISessionRegistrator">
+      <Item value="Process" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Media.TcpMeetingBridgeRegistrator">
+      <Item value="Values" priority="1" />
+      <Item value="ContainsKey" priority="0" />
+      <Item value="Remove" priority="2" />
+      <Item value="TryGetValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Media.TcpMeetingBridgeConnection">
+      <Item value="socketClient" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Common.Connection.Tcp.TcpConnection">
+      <Item value="ConnectionId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Streaming.StateEvent.SetupEvent">
+      <Item value="AgentName" priority="0" />
+      <Item value="EndpointAddress" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RTP.RTPMessageParser">
+      <Item value="state" priority="0" />
+      <Item value="headerContent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RTP.RTPParseStateType">
+      <Item value="Init" priority="0" />
+      <Item value="ParsingHeader" priority="1" />
+      <Item value="ParsingContent" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RTP.RTPMessageHeaderField">
+      <Item value="RTP_HEADER_LEN" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Server.Streaming.StateEvent.EventType">
+      <Item value="ANNOUNCE" priority="1" />
+      <Item value="TIME_OUT" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Server.Streaming.StateType">
+      <Item value="INIT" priority="1" />
+      <Item value="PLAYING" priority="0" />
+      <Item value="READY" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Streaming.StateEvent.AnnounceEvent">
+      <Item value="PresentationUrl" priority="1" />
+      <Item value="EndpointAddress" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Common.IAgentSession">
+      <Item value="IsPublisher" priority="0" />
+      <Item value="PublisherUrl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Common.IRegistrator`2">
+      <Item value="Add" priority="0" />
+      <Item value="Remove" priority="0" />
+      <Item value="TryGetValue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Streaming.StateEvent.PlayEvent">
+      <Item value="PresentationUrl" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Common.ISessionContext">
+      <Item value="SessionOfAgent" priority="0" />
+      <Item value="SessionId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Server.Streaming.StateEvent.ResponseStatus">
+      <Item value="Ok" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Collections.BlockingQueue`1">
+      <Item value="Enqueue" priority="1" />
+      <Item value="Dequeue" priority="1" />
+      <Item value="Clear" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Core.Collections.SyncDictionary`2">
+      <Item value="Add" priority="1" />
+      <Item value="Remove" priority="0" />
+      <Item value="Values" priority="2" />
+      <Item value="TryGetValue" priority="2" />
+      <Item value="ContainsKey" priority="1" />
+      <Item value="Count" priority="0" />
+      <Item value="Keys" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Media.TcpMeetingBridge">
+      <Item value="BridgeId" priority="0" />
+      <Item value="publisherConnection" priority="0" />
+      <Item value="AddSubscriber" priority="0" />
+      <Item value="DestroyPublisher" priority="0" />
+      <Item value="RemoveSubscriber" priority="0" />
+      <Item value="CreatePublisher" priority="0" />
+      <Item value="CanAddSubscriber" priority="0" />
+      <Item value="TryToAdd" priority="0" />
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding">
+      <Item value="Convert" priority="0" />
+      <Item value="ASCII" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.Encoding">
+      <Item value="GetBytes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Core.Helper.StringHelper">
+      <Item value="GetAsciiBytes" priority="0" />
+      <Item value="GetStringFromAscii" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MockDesktopPlayer.DesktopPlayerControl+ParserState">
+      <Item value="HeaderParsing" priority="0" />
+      <Item value="BodyParsing" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MockDesktopPlayer.DesktopPlayerControl">
+      <Item value="pbDesktopCapturePane" priority="3" />
+      <Item value="SendKeyEvent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.PictureBox">
+      <Item value="Image" priority="0" />
+      <Item value="KeyPress" priority="0" />
+      <Item value="MouseHover" priority="0" />
+      <Item value="KeyDown" priority="0" />
+      <Item value="MouseDown" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.DesktopAgent.Command.DesktopCapture">
+      <Item value="Execute" priority="0" />
+      <Item value="DesktopActualSize" priority="0" />
+      <Item value="WidthAspectRatio" priority="0" />
+      <Item value="HeightAspectRatio" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.Sockets.Socket">
+      <Item value="Select" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MockDesktopPlayer.RenderingEngine">
+      <Item value="Process" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Core.Native.Gdi32">
+      <Item value="SOURCE_COPY" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RDAP.RdapMessageType">
+      <Item value="UnRegisterMessage" priority="0" />
+      <Item value="DesktopWindowInfoMessage" priority="1" />
+      <Item value="KeyboardEventMessage" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RDAP.Messages.PixelFormatType">
+      <Item value="YUV420" priority="3" />
+      <Item value="RGB24" priority="3" />
+      <Item value="YUV444" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDAP.Messages.DesktopWindowInfoMessage">
+      <Item value="ToBytes" priority="0" />
+      <Item value="ImageBytes" priority="2" />
+      <Item value="FormatType" priority="0" />
+      <Item value="Width" priority="0" />
+      <Item value="Height" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDAP.RdapMessage">
+      <Item value="ToBytes" priority="0" />
+      <Item value="MessageType" priority="0" />
+      <Item value="Data" priority="2" />
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.Coder.Converter.YUV420ToRGB24Converter">
+      <Item value="Process" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Coder.PixelFormatType">
+      <Item value="PIX_FMT_RGB24" priority="8" />
+      <Item value="PIX_FMT_RGB32" priority="3" />
+      <Item value="PIX_FMT_YUV410" priority="1" />
+      <Item value="PIX_FMT_YUV411" priority="1" />
+      <Item value="PIX_FMT_YUV420" priority="5" />
+      <Item value="PIX_FMT_YUV422" priority="1" />
+      <Item value="PIX_FMT_YUV440" priority="1" />
+      <Item value="PIX_FMT_YUV444" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Sockets.Socket">
+      <Item value="UseOnlyOverlappedIO" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Compression.CompressionMode">
+      <Item value="Compress" priority="0" />
+      <Item value="Decompress" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Compression.GZipStream">
+      <Item value="Length" priority="1" />
+      <Item value="ReadTimeout" priority="0" />
+      <Item value="Read" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDAP.Messages.MouseDragEventMesssage">
+      <Item value="StartXPosition" priority="0" />
+      <Item value="EndXPosition" priority="1" />
+      <Item value="StartYPosition" priority="0" />
+      <Item value="EndYPosition" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.RDAP.Messages.KeyboardEventMessage">
+      <Item value="KeyStroke" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MockClient.SocketStorage">
+      <Item value="Save" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.KeyPressEventArgs">
+      <Item value="KeyChar" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Ticks" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="MaxValue" priority="0" />
+      <Item value="MinValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RDAP.Messages.MouseEventType">
+      <Item value="Left" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.MouseEventArgs">
+      <Item value="X" priority="0" />
+      <Item value="Y" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.KeyEventArgs">
+      <Item value="KeyCode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.DesktopAgent.Command.KeyboardStroke">
+      <Item value="Execute" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Media.TcpMeetingBridgeSubscriber">
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Media.TcpMeetingBridgeAgent">
+      <Item value="OnDataRecieveEvent" priority="0" />
+      <Item value="ConnectionId" priority="0" />
+      <Item value="OnCloseEvent" priority="0" />
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Media.TcpMeetingBridgePublisherListener">
+      <Item value="Start" priority="0" />
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Media.TcpMeetingBridgeSubscriberListener">
+      <Item value="Start" priority="0" />
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Media.TcpMeetingConnectionPointRegistrator">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Media.TcpMeetingConnectionPoint">
+      <Item value="Start" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Server.Media.MeetingBridgeAgentType">
+      <Item value="Publisher" priority="2" />
+      <Item value="Subscriber" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Server.Media.TcpMeetingBridgeListenerType">
+      <Item value="Publisher" priority="0" />
+      <Item value="Subscriber" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Media.TcpMeetingBridgeSubscribers">
+      <Item value="Values" priority="0" />
+      <Item value="Clear" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Server.Media.MeetingBridgeListenerType">
+      <Item value="Publisher" priority="0" />
+      <Item value="Subscriber" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.EndPoint">
+      <Item value="ToString" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Media.MeetingBridgeSubscribers">
+      <Item value="Remove" priority="0" />
+      <Item value="Values" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Media.MeetingBridgeAgent">
+      <Item value="RemoteEndpoint" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Media.MeetingBridge">
+      <Item value="subscriberConnections" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TW.LiveMeet.Server.Media.IMeetingBridge">
+      <Item value="CanAddAgent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.RDAP.Messages.RdapImagePixelFormatType">
+      <Item value="RGB24" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="Milliseconds" priority="0" />
+      <Item value="TotalMilliseconds" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Action">
+      <Item value="BeginInvoke" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.Core.Threading.Parallel">
+      <Item value="ForLoopBody" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@TW.LiveMeet.Server.Media.ConnectionPointFactory">
+      <Item value="CreateTcpConnectionPoint" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.NativeMethods+INPUT">
+      <Item value="inputUnion" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

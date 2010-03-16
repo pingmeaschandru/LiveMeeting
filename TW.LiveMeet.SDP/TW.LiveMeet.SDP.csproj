@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{48EA7B84-6E55-4DC2-8AA1-A5648719104E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TW.LiveMeet.SDP</RootNamespace>
+    <AssemblyName>TW.LiveMeet.SDP</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Field\InvalidSdpStringFormatException.cs" />
+    <Compile Include="Field\SdpFieldAttribute.cs" />
+    <Compile Include="Field\SdpFieldBandwidth.cs" />
+    <Compile Include="Field\SdpFieldConnection.cs" />
+    <Compile Include="Field\SdpFieldEmailAddress.cs" />
+    <Compile Include="Field\SdpFieldEncryptionKey.cs" />
+    <Compile Include="Field\SdpFieldMediaDescription.cs" />
+    <Compile Include="Field\SdpFieldOrigin.cs" />
+    <Compile Include="Field\SdpFieldPhoneNumber.cs" />
+    <Compile Include="Field\SdpFieldRepeatTime.cs" />
+    <Compile Include="Field\SdpFieldSessionInformation.cs" />
+    <Compile Include="Field\SdpFieldSessionName.cs" />
+    <Compile Include="Parser\CanNotFindCRLFException.cs" />
+    <Compile Include="Parser\Command\SdpAttributeParseCommand.cs" />
+    <Compile Include="Parser\Command\SdpBandWidthParseCommand.cs" />
+    <Compile Include="Parser\Command\SdpConnectionDataParseCommand.cs" />
+    <Compile Include="Parser\Command\SdpEmailAddressParseCommand.cs" />
+    <Compile Include="Parser\Command\SdpEncryptionKeyParseCommand.cs" />
+    <Compile Include="Parser\Command\SdpMediaDescriptionsParseCommand.cs" />
+    <Compile Include="Parser\Command\SdpOriginParseCommand.cs" />
+    <Compile Include="Parser\Command\SdpParseCommandBase.cs" />
+    <Compile Include="Parser\Command\SdpPhoneNumberParseCommand.cs" />
+    <Compile Include="Parser\Command\SdpSessionInformationParseCommand.cs" />
+    <Compile Include="Parser\Command\SdpSessionNameParseCommand.cs" />
+    <Compile Include="Parser\Command\SdpTimingsParseCommand.cs" />
+    <Compile Include="Parser\Command\SdpUriParseCommand.cs" />
+    <Compile Include="Parser\Command\SdpVersionParseCommand.cs" />
+    <Compile Include="Parser\ISdpParseCommand.cs" />
+    <Compile Include="SdpMediaDescriptions.cs" />
+    <Compile Include="Parser\SdpMessageParser.cs" />
+    <Compile Include="SdpTimings.cs" />
+    <Compile Include="Field\SdpFieldTime.cs" />
+    <Compile Include="Field\SdpFieldUri.cs" />
+    <Compile Include="Field\SdpFieldVersion.cs" />
+    <Compile Include="Field\SdpFieldZoneAdjustments.cs" />
+    <Compile Include="ISdpFieldValue.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SdpConstants.cs" />
+    <Compile Include="SdpMessage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TW.Core\TW.Core.csproj">
+      <Project>{A3E4D596-FB0F-4A5C-B125-065B7BF6CA6E}</Project>
+      <Name>TW.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

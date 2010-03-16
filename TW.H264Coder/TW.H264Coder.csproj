@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B312942D-E46B-43B1-ABFD-211EF212FD58}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TW.H264Coder</RootNamespace>
+    <AssemblyName>TW.H264Coder</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaselineProfileFactory.cs" />
+    <Compile Include="IO\BitOutputStream.cs" />
+    <Compile Include="IO\IH264EntropyOutputStream.cs" />
+    <Compile Include="IO\H264OutputStream.cs" />
+    <Compile Include="Nal\NalRefIdc.cs" />
+    <Compile Include="Nal\NaluType.cs" />
+    <Compile Include="Nal\RBSP.cs" />
+    <Compile Include="Nal\Nalu.cs" />
+    <Compile Include="Nal\NaluByteStream.cs" />
+    <Compile Include="ParameterSet\PictureParameterSet.cs" />
+    <Compile Include="ParameterSet\SequenceParameterSet.cs" />
+    <Compile Include="Vcl\Algorithm\IAlgorithmFactory.cs" />
+    <Compile Include="Vcl\Algorithm\Impl\DiamondSearchMotionEstimation.cs" />
+    <Compile Include="Vcl\Algorithm\Impl\FullSearchMotionEstimation.cs" />
+    <Compile Include="Vcl\Algorithm\Impl\IntegerQuantizer.cs" />
+    <Compile Include="Vcl\Algorithm\Impl\IntegerTransform.cs" />
+    <Compile Include="Vcl\Algorithm\Impl\PredictiveMotionEstimation.cs" />
+    <Compile Include="Vcl\Algorithm\Impl\ZigZagFrameScanner.cs" />
+    <Compile Include="Vcl\Algorithm\MotionEstimation.cs" />
+    <Compile Include="Vcl\Algorithm\Quantizer.cs" />
+    <Compile Include="Vcl\Algorithm\IScanner.cs" />
+    <Compile Include="Vcl\Algorithm\ITransform.cs" />
+    <Compile Include="Vcl\Block\ResidualBlockInfo.cs" />
+    <Compile Include="Vcl\Datatype\MacroblockType.cs" />
+    <Compile Include="Vcl\Datatype\ResidualBlockType.cs" />
+    <Compile Include="Vcl\Datatype\SliceType.cs" />
+    <Compile Include="Vcl\Entropy\Cavlc.cs" />
+    <Compile Include="Vcl\Entropy\IEntropyOutputStream.cs" />
+    <Compile Include="Vcl\Entropy\SyntaxElement.cs" />
+    <Compile Include="Vcl\Entropy\VlcTable.cs" />
+    <Compile Include="Vcl\Frame.cs" />
+    <Compile Include="Vcl\FrameBuffer.cs" />
+    <Compile Include="Vcl\Macroblock.cs" />
+    <Compile Include="Vcl\MacroblockImpl\MacroblockAccess.cs" />
+    <Compile Include="Vcl\MacroblockImpl\MacroblockAccessNonMBAFF.cs" />
+    <Compile Include="Vcl\MacroblockImpl\MacroblockInfo.cs" />
+    <Compile Include="Vcl\MacroblockImpl\MacroblockPosition.cs" />
+    <Compile Include="Vcl\Mode\AbstractEncodingMode.cs" />
+    <Compile Include="Vcl\Mode\Decision\IDistortionMetric.cs" />
+    <Compile Include="Vcl\Mode\Decision\Satd.cs" />
+    <Compile Include="Vcl\Mode\IEncodingMode.cs" />
+    <Compile Include="Vcl\Mode\Intra16x16EncodingMode.cs" />
+    <Compile Include="Vcl\Mode\IpcmEncodingMode.cs" />
+    <Compile Include="Vcl\Mode\Prediction\Intra16x16LumaAbstractPredictor.cs" />
+    <Compile Include="Vcl\Mode\Prediction\Intra16x16LumaDCPredictor.cs" />
+    <Compile Include="Vcl\Mode\Prediction\Intra16x16LumaHorizontalPredictor.cs" />
+    <Compile Include="Vcl\Mode\Prediction\Intra16x16LumaPlanePredictor.cs" />
+    <Compile Include="Vcl\Mode\Prediction\Intra16x16LumaVerticalPredictor.cs" />
+    <Compile Include="Vcl\Mode\Prediction\Intra8x8ChromaAbstractPredictor.cs" />
+    <Compile Include="Vcl\Mode\Prediction\Intra8x8ChromaDCPredictor.cs" />
+    <Compile Include="Vcl\Mode\Prediction\Intra8x8ChromaHorizontalPredictor.cs" />
+    <Compile Include="Vcl\Mode\Prediction\Intra8x8ChromaPlanePredictor.cs" />
+    <Compile Include="Vcl\Mode\Prediction\Intra8x8ChromaVerticalPredictor.cs" />
+    <Compile Include="Vcl\Mode\Prediction\IIntraPredictor.cs" />
+    <Compile Include="YuvFormatType.cs" />
+    <Compile Include="YuvFrameBuffer.cs" />
+    <Compile Include="Vcl\Partition\Block.cs" />
+    <Compile Include="Vcl\Picture.cs" />
+    <Compile Include="Vcl\Slice.cs" />
+    <Compile Include="Vcl\SliceHeader.cs" />
+    <Compile Include="Vcl\VideoSequence.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TW.Core\TW.Core.csproj">
+      <Project>{A3E4D596-FB0F-4A5C-B125-065B7BF6CA6E}</Project>
+      <Name>TW.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
