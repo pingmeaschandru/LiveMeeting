@@ -99,8 +99,8 @@ namespace MockClient
             if (frame == null)
                 return;
 
-            var message = new DesktopWindowInfoMessage(RdapImagePixelFormatType.PIX_FMT_RGB24, (uint)frame.Width, (uint)frame.Height, frame.Data);
-            var dataToSend = new RdapMessage(RdapMessageType.DesktopWindowInfoMessage, message.ToBytes()).ToBytes();
+            var message = new DesktopWindowImageFrameMessage(RdapImagePixelFormatType.PIX_FMT_RGB24, (uint)frame.Width, (uint)frame.Height, frame.Data);
+            var dataToSend = new RdapMessage(RdapMessageType.DesktopWindowImageFrameMessage, message.ToBytes()).ToBytes();
             client.Send(dataToSend, 0, dataToSend.Length);
         }
     }

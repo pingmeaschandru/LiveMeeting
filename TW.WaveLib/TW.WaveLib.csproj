@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{5C9EA122-81C7-4584-A404-6EBF2C5CBDB8}</ProjectGuid>
+    <ProjectGuid>{367D3450-88A3-4EE5-B359-23E43536680E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TW.LiveMeet.RDAP</RootNamespace>
-    <AssemblyName>TW.LiveMeet.RDAP</AssemblyName>
+    <RootNamespace>TW.WaveLib</RootNamespace>
+    <AssemblyName>TW.WaveLib</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -45,31 +45,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IRdapMessage.cs" />
-    <Compile Include="Messages\AudioFormatType.cs" />
-    <Compile Include="Messages\AudioFrameMessage.cs" />
-    <Compile Include="Messages\RdapImagePixelFormatType.cs" />
-    <Compile Include="Messages\KeyboardEventMessage.cs" />
-    <Compile Include="Messages\MouseClickEventMessage.cs" />
-    <Compile Include="Messages\MouseDragEventMesssage.cs" />
-    <Compile Include="Messages\DesktopWindowImageFrameMessage.cs" />
-    <Compile Include="Messages\MouseEventType.cs" />
-    <Compile Include="Messages\VideoFrameMessage.cs" />
-    <Compile Include="RdapMessageBase.cs" />
-    <Compile Include="Messages\UnknownRdaMessage.cs" />
-    <Compile Include="RdapMessage.cs" />
-    <Compile Include="RdapMessageType.cs" />
-    <Compile Include="Parser\InsufficientRdapMessageException.cs" />
-    <Compile Include="Parser\RdapMessageParser.cs" />
-    <Compile Include="Parser\RdapMessageReader.cs" />
-    <Compile Include="Messages\WindowInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WaveIn.cs" />
+    <Compile Include="WaveInHelper.cs" />
+    <Compile Include="WaveInRecorder.cs" />
+    <Compile Include="WaveOutPlayer.cs" />
+    <Compile Include="WaveOutBuffer.cs" />
+    <Compile Include="WaveOutHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TW.Coder\TW.Coder.csproj">
-      <Project>{90678E06-B7D1-4823-8B76-3CFC2057AAA5}</Project>
-      <Name>TW.Coder</Name>
-    </ProjectReference>
     <ProjectReference Include="..\TW.Core\TW.Core.csproj">
       <Project>{A3E4D596-FB0F-4A5C-B125-065B7BF6CA6E}</Project>
       <Name>TW.Core</Name>

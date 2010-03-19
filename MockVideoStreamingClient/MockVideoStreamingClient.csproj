@@ -5,13 +5,15 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{5C9EA122-81C7-4584-A404-6EBF2C5CBDB8}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{0EE933C1-E847-4432-8017-B23F652EF90D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TW.LiveMeet.RDAP</RootNamespace>
-    <AssemblyName>TW.LiveMeet.RDAP</AssemblyName>
+    <RootNamespace>MockVideoStreamingClient</RootNamespace>
+    <AssemblyName>MockVideoStreamingClient</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -35,6 +37,7 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -45,24 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IRdapMessage.cs" />
-    <Compile Include="Messages\AudioFormatType.cs" />
-    <Compile Include="Messages\AudioFrameMessage.cs" />
-    <Compile Include="Messages\RdapImagePixelFormatType.cs" />
-    <Compile Include="Messages\KeyboardEventMessage.cs" />
-    <Compile Include="Messages\MouseClickEventMessage.cs" />
-    <Compile Include="Messages\MouseDragEventMesssage.cs" />
-    <Compile Include="Messages\DesktopWindowImageFrameMessage.cs" />
-    <Compile Include="Messages\MouseEventType.cs" />
-    <Compile Include="Messages\VideoFrameMessage.cs" />
-    <Compile Include="RdapMessageBase.cs" />
-    <Compile Include="Messages\UnknownRdaMessage.cs" />
-    <Compile Include="RdapMessage.cs" />
-    <Compile Include="RdapMessageType.cs" />
-    <Compile Include="Parser\InsufficientRdapMessageException.cs" />
-    <Compile Include="Parser\RdapMessageParser.cs" />
-    <Compile Include="Parser\RdapMessageReader.cs" />
-    <Compile Include="Messages\WindowInfo.cs" />
+    <Compile Include="VideoCapture.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +60,10 @@
     <ProjectReference Include="..\TW.Core\TW.Core.csproj">
       <Project>{A3E4D596-FB0F-4A5C-B125-065B7BF6CA6E}</Project>
       <Name>TW.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TW.LiveMeet.RDA\TW.LiveMeet.RDAP.csproj">
+      <Project>{5C9EA122-81C7-4584-A404-6EBF2C5CBDB8}</Project>
+      <Name>TW.LiveMeet.RDAP</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

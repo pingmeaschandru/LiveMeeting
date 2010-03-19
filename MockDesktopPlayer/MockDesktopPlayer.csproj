@@ -101,6 +101,10 @@
       <Project>{5C9EA122-81C7-4584-A404-6EBF2C5CBDB8}</Project>
       <Name>TW.LiveMeet.RDAP</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TW.WaveLib\TW.WaveLib.csproj">
+      <Project>{367D3450-88A3-4EE5-B359-23E43536680E}</Project>
+      <Name>TW.WaveLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

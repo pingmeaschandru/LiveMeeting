@@ -16,7 +16,7 @@ namespace TW.LiveMeet.RDAP.Test.Messages
                                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0
                                     };
 
-            var message = new DesktopWindowInfoMessage(messageBuffer);
+            var message = new DesktopWindowImageFrameMessage(messageBuffer);
             Assert.AreEqual(RdapImagePixelFormatType.PIX_FMT_YUV420, message.FormatType);
             Assert.AreEqual(4, message.Width);
             Assert.AreEqual(4, message.Height);
@@ -27,7 +27,7 @@ namespace TW.LiveMeet.RDAP.Test.Messages
         public void ShouldAbleToBytesFromRetriveVariables()
         {
 
-            var message = new DesktopWindowInfoMessage(RdapImagePixelFormatType.PIX_FMT_YUV420, 4, 4,
+            var message = new DesktopWindowImageFrameMessage(RdapImagePixelFormatType.PIX_FMT_YUV420, 4, 4,
                                                        new byte[4 * 4 * 3]);
 
             var messageBuffer = new byte[]
@@ -52,7 +52,7 @@ namespace TW.LiveMeet.RDAP.Test.Messages
         public void TwoConsecutiveCallsWhichReturnsMessageBuffersShouldNotBeSame()
         {
 
-            var message = new DesktopWindowInfoMessage(RdapImagePixelFormatType.PIX_FMT_YUV420, 4, 4,
+            var message = new DesktopWindowImageFrameMessage(RdapImagePixelFormatType.PIX_FMT_YUV420, 4, 4,
                                                        new byte[4 * 4 * 3]);
 
 

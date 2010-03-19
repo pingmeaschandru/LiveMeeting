@@ -13,7 +13,7 @@ namespace TW.LiveMeet.RDAP.Test.Parser
             var fifoStream = new FifoStream();
 
             var desktopMessage = new RdapMessage(
-                RdapMessageType.DesktopWindowInfoMessage,
+                RdapMessageType.DesktopWindowImageFrameMessage,
                 new byte[]
                     {
                         1, 4, 0, 0, 0, 4, 0, 0, 0, 48, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -46,7 +46,7 @@ namespace TW.LiveMeet.RDAP.Test.Parser
 
             RdapMessage desktopMessageOutput;
             parser.TryParseMessage(out desktopMessageOutput);
-            Assert.AreEqual(RdapMessageType.DesktopWindowInfoMessage, desktopMessageOutput.MessageType);
+            Assert.AreEqual(RdapMessageType.DesktopWindowImageFrameMessage, desktopMessageOutput.MessageType);
             Assert.AreEqual(97, desktopMessageOutput.Data.Length);
 
             RdapMessage mouseClickEventMessageOutput;
@@ -61,7 +61,7 @@ namespace TW.LiveMeet.RDAP.Test.Parser
             var fifoStream = new FifoStream();
 
             var desktopMessage = new RdapMessage(
-                RdapMessageType.DesktopWindowInfoMessage,
+                RdapMessageType.DesktopWindowImageFrameMessage,
                 new byte[]
                     {
                         1, 4, 0, 0, 0, 4, 0, 0, 0, 48, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -100,7 +100,7 @@ namespace TW.LiveMeet.RDAP.Test.Parser
             fifoStream.Write(bytesToWrite2, 0, bytesToWrite2.Length);
 
             parser.TryParseMessage(out desktopMessageOutput);
-            Assert.AreEqual(RdapMessageType.DesktopWindowInfoMessage, desktopMessageOutput.MessageType);
+            Assert.AreEqual(RdapMessageType.DesktopWindowImageFrameMessage, desktopMessageOutput.MessageType);
             Assert.AreEqual(97, desktopMessageOutput.Data.Length);
 
             RdapMessage mouseClickEventMessageOutput;
