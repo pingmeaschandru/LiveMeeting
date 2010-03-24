@@ -16,11 +16,6 @@ namespace TW.LiveMeet.Server.Streaming.Rules
             return message is TearDownEvent ? message as TearDownEvent : null;
         }
 
-        protected override string OnInitState(IEventMessage message)
-        {
-            return StateType.INIT;
-        }
-
         protected override string OnPlayingState(IEventMessage message)
         {
             var eventMessage = TypeCast(message);

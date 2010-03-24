@@ -16,8 +16,8 @@ namespace TW.LiveMeet.DesktopAgent.Command
         public void Execute()
         {
             User32.SetCursorPos(x, y);
-            User32.mouse_event((uint)User32.Flags.Leftdown, 0, 0, 0, 0);
-            User32.mouse_event((uint)User32.Flags.Leftup, 0, 0, 0, 0);
+            User32.mouse_event((uint)MouseEventFlags.Leftdown, 0, 0, 0, 0);
+            User32.mouse_event((uint)MouseEventFlags.Leftup, 0, 0, 0, 0);
         }
     }
 }

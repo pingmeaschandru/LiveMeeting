@@ -4,14 +4,21 @@ using System.Net.Sockets;
 
 namespace TW.Core.Sockets
 {
-    public class TcpSocketServer : SocketBase
+    public class TcpSocketServer
     {
-        public event EventHandler<SocketEventArgs> OnNewConnection = delegate { };
+        private readonly int buffSize;
+        public const int BACKLOG = 10;
+
+        public event EventHandler<SocketConnectionEventArgs> OnNewConnection = delegate { };
         public event EventHandler<SocketExceptionEventArgs> OnExceptionThrown = delegate { };
 
-        public TcpSocketServer()
+        protected Socket socket;
+
+        public TcpSocketServer(int buffSize)
         {
-            socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            this.buffSize = buffSize;
+            socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp) {NoDelay = true};
+
             IsListening = false;
         }
 
@@ -66,10 +73,10 @@ namespace TW.Core.Sockets
 
                 if (clientSocket.Connected)
                 {
-                    var tcpsocket = new TcpSocketClient(clientSocket);
+                    var tcpsocket = new TcpSocketClient(buffSize, clientSocket);
 
                     if (OnNewConnection != null)
-                        OnNewConnection(this, new SocketEventArgs(tcpsocket));
+                        OnNewConnection(this, new SocketConnectionEventArgs(tcpsocket));
                 }
 
                 Accept();

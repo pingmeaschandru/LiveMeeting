@@ -22,7 +22,7 @@ namespace MockDesktopPlayer
         public RenderingEngine(Action<Bitmap> action)
         {
             fifoStream = new FifoStream();
-            player = new WaveOutPlayer(-1, new Winmm.WaveFormat(44100, 16, 2), 16384, 3, Filler);
+            player = new WaveOutPlayer(-1, new WaveFormat(44100, 16, 2), 16384, 3, Filler);
             this.action = action;
             start();
         }
@@ -36,15 +36,15 @@ namespace MockDesktopPlayer
         {
             var rdapMessage = queue.Dequeue();
 
-            //if (rdapMessage.MessageType != RdapMessageType.DesktopWindowImageFrameMessage) return;
-            //var windowInfoMessage = new DesktopWindowImageFrameMessage(rdapMessage.Data);
-            //if (windowInfoMessage.FormatType != RdapImagePixelFormatType.PIX_FMT_RGB24) return;
-            //var bitmapData = RgbFrameFactory.CreateBitmap(new RgbFrame((int)windowInfoMessage.Width,
-            //                                                           (int)windowInfoMessage.Height,
-            //                                                           PixelFormatType.PIX_FMT_RGB24,
-            //                                                           windowInfoMessage.ImageBytes));
+            if (rdapMessage.MessageType != RdapMessageType.DesktopWindowImageFrameMessage) return;
+            var windowInfoMessage = new DesktopWindowImageFrameMessage(rdapMessage.Data);
+            if (windowInfoMessage.FormatType != RdapImagePixelFormatType.PIX_FMT_RGB24) return;
+            var bitmapData = RgbFrameFactory.CreateBitmap(new RgbFrame((int)windowInfoMessage.Width,
+                                                                       (int)windowInfoMessage.Height,
+                                                                       PixelFormatType.PIX_FMT_RGB24,
+                                                                       windowInfoMessage.ImageBytes));
 
-            //if (bitmapData != null) action(bitmapData);
+            if (bitmapData != null) action(bitmapData);
 
 
             //if (rdapMessage.MessageType != RdapMessageType.VideoFrameMessage) return;
@@ -58,10 +58,10 @@ namespace MockDesktopPlayer
             //if (bitmapData != null) action(bitmapData);
 
 
-            if (rdapMessage.MessageType != RdapMessageType.AudioFrameMessage) return;
-            var windowInfoMessage = new AudioFrameMessage(rdapMessage.Data);
-            if (windowInfoMessage.FormatType != AudioFormatType.Wave) return;
-            fifoStream.Write(windowInfoMessage.AudioBytes, 0, windowInfoMessage.AudioBytes.Length);
+            //if (rdapMessage.MessageType != RdapMessageType.AudioFrameMessage) return;
+            //var audioFrameMessage = new AudioFrameMessage(rdapMessage.Data);
+            //if (audioFrameMessage.FormatType != AudioFormatType.Wave) return;
+            //fifoStream.Write(audioFrameMessage.AudioBytes, 0, audioFrameMessage.AudioBytes.Length);
         }
 
         private void Filler(IntPtr data, int size)

@@ -51,6 +51,8 @@ namespace TW.LiveMeet.Server.Media
         {
             if (socketClient == null) return;
 
+            Console.WriteLine("Closed connection, RemoteEp : " + socketClient.RemoteEndPoint + " , LocalEp : " + socketClient.LocalEndPoint);
+
             socketClient.OnDataRecieved -= OnDataRecieved;
             socketClient.OnExceptionThrown -= OnException;
             socketClient.Close();

@@ -1,3 +1,4 @@
+using System;
 using TW.Coder;
 using TW.Core.IO;
 using TW.Core.Sockets;
@@ -7,7 +8,7 @@ using TW.LiveMeet.RDAP;
 using TW.LiveMeet.RDAP.Messages;
 using TW.LiveMeet.RDAP.Parser;
 
-namespace MockClient
+namespace MockDesktopStreamingClient
 {
     public class SocketStorage : IDesktopCaptureStorage
     {
@@ -26,28 +27,36 @@ namespace MockClient
 
         private void OnDataRecieved(object sender, SocketMessageEventArgs e)
         {
-            parserStream.Write(e.Buffer, 0, e.Buffer.Length);
-            RdapMessage rdapMessage;
-            if (!parser.TryParseMessage(out rdapMessage)) return;
-
-            switch (rdapMessage.MessageType)
+            lock (this)
             {
-                case RdapMessageType.MouseClickEventMessage:
-                    DoMouseClick(rdapMessage);
-                    break;
-                case RdapMessageType.MouseDragEventMesssage:
-                    DoMouseDrag(rdapMessage);
-                    break;
-                case RdapMessageType.KeyboardEventMessage:
-                    DoKeyStroke(rdapMessage);
-                    break;
+                parserStream.Write(e.Buffer, 0, e.Buffer.Length);
+                RdapMessage rdapMessage;
+                if (!parser.TryParseMessage(out rdapMessage)) return;
+
+                switch (rdapMessage.MessageType)
+                {
+                    case RdapMessageType.MouseClickEventMessage:
+                        DoMouseClick(rdapMessage);
+                        break;
+                    case RdapMessageType.MouseDragEventMesssage:
+                        DoMouseDrag(rdapMessage);
+                        break;
+                    case RdapMessageType.KeyboardEventMessage:
+                        DoKeyStroke(rdapMessage);
+                        break;
+                }
             }
         }
 
         private void DoKeyStroke(RdapMessage message)
         {
             var mouseDragEventMesssage = new KeyboardEventMessage(message.Data);
-            new KeyboardStroke(mouseDragEventMesssage.KeyStroke).Execute();
+            Console.WriteLine("Key Stroke , Alt : " + mouseDragEventMesssage.Alt + " , Control : " + mouseDragEventMesssage.Control+" , Shift : "+mouseDragEventMesssage.Shift+" , KeyCode : "+mouseDragEventMesssage.VirtualKeyCode);
+            
+            new KeyboardStroke(mouseDragEventMesssage.VirtualKeyCode, 
+                mouseDragEventMesssage.Alt == 1 ? true : false,
+                mouseDragEventMesssage.Control == 1 ? true : false,
+                mouseDragEventMesssage.Shift == 1 ? true : false).Execute();
         }
 
         private void DoMouseDrag(RdapMessage message)
@@ -77,17 +86,19 @@ namespace MockClient
         private void DoMouseClick(RdapMessage message)
         {
             var mouseClickEventMessage = new MouseClickEventMessage(message.Data);
+            Console.WriteLine("Mouse Click , X : " + mouseClickEventMessage.XPosition+" , Y : "+mouseClickEventMessage.YPosition);
+
             switch (mouseClickEventMessage.EventType)
             {
                 case MouseEventType.Left:
                     new MouseLeft((int) ((int) mouseClickEventMessage.XPosition*desktopCapture.WidthAspectRatio),
                                   (int) ((int) mouseClickEventMessage.YPosition*desktopCapture.HeightAspectRatio))
-                                  .Execute();
+                        .Execute();
                     break;
                 case MouseEventType.Right:
                     new MouseRight((int)((int)mouseClickEventMessage.XPosition * desktopCapture.WidthAspectRatio),
-                                  (int)((int)mouseClickEventMessage.YPosition * desktopCapture.HeightAspectRatio))
-                                  .Execute();
+                                   (int)((int)mouseClickEventMessage.YPosition * desktopCapture.HeightAspectRatio))
+                        .Execute();
                     break;
                 default:
                     return;

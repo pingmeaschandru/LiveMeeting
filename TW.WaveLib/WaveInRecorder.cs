@@ -20,7 +20,7 @@ namespace TW.WaveLib
             get { return Winmm.waveInGetNumDevs(); }
         }
 
-        public WaveInRecorder(int device, Winmm.WaveFormat format, int bufferSize, int bufferCount, BufferDoneEventHandler doneProc)
+        public WaveInRecorder(int device, WaveFormat format, int bufferSize, int bufferCount, BufferDoneEventHandler doneProc)
         {
             this.doneProc = doneProc;
             WaveInHelper.Try(Winmm.waveInOpen(out waveIn, device, format, bufferProc, 0, Winmm.CALLBACK_FUNCTION));

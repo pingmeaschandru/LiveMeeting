@@ -34,6 +34,8 @@
             this.btnPlay = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
             this.StatusLabel = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbHeader)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbDesktopCapturePane)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbFooter)).BeginInit();
@@ -95,8 +97,24 @@
             this.StatusLabel.Size = new System.Drawing.Size(0, 13);
             this.StatusLabel.TabIndex = 4;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(473, 9);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 5;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(579, 9);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(53, 20);
+            this.textBox2.TabIndex = 6;
+            // 
             // DesktopPlayerControl
             // 
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.StatusLabel);
             this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.btnStop);
@@ -127,5 +145,7 @@
         private System.Windows.Forms.Button btnStop;
         private System.Windows.Forms.PictureBox pbDesktopCapturePane;
         private System.Windows.Forms.Label StatusLabel;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }

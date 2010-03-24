@@ -1,3 +1,4 @@
+using System;
 using System.Net;
 using TW.Core.Sockets;
 
@@ -15,7 +16,7 @@ namespace TW.LiveMeet.Server.Media
             this.type = type;
             this.meetingBridge = meetingBridge;
             this.port = port;
-            tcpListener = new TcpSocketServer();
+            tcpListener = new TcpSocketServer(8000);
         }
 
         public void Start()
@@ -30,11 +31,13 @@ namespace TW.LiveMeet.Server.Media
             Close();
         }
 
-        private void OnNewConnection(object sender, SocketEventArgs e)
+        private void OnNewConnection(object sender, SocketConnectionEventArgs e)
         {
             var tcpSocketClient = e.Socket as TcpSocketClient;
             if (tcpSocketClient == null)
                 return;
+            
+            Console.WriteLine("New connection, RemoteEp : "+tcpSocketClient.RemoteEndPoint+" , LocalEp : "+tcpSocketClient.LocalEndPoint+" , Agent Type : "+type);
 
             if (!meetingBridge.Add(type, new TcpMeetingBridgeAgent(tcpSocketClient)))
                 tcpSocketClient.Disconnect(false);

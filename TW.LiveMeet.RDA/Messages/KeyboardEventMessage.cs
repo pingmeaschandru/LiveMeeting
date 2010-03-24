@@ -1,14 +1,19 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 
 namespace TW.LiveMeet.RDAP.Messages
 {
     public class KeyboardEventMessage : RdapMessageBase, IRdapMessage
     {
-        internal const int KEY_STROKE_LENGTH = 1;
-        internal const int EXTRA_KEYS_LENGTH = 1;
+        internal const int VIRTUAL_KEY_CODE_LENGTH = 2;
+        internal const int ALT_LENGTH = 1;
+        internal const int CONTROL_LENGTH = 1;
+        internal const int SHIFT_LENGTH = 1;
 
-        private int keyStrokePosition;
-        private int extraKeyStrokePosition;
+        private int virtualKeyCodePosition;
+        private int altPosition;
+        private int controlPosition;
+        private int shiftPosition;
 
         public KeyboardEventMessage(byte[] messageBuffer)
             : base(messageBuffer)
@@ -16,13 +21,15 @@ namespace TW.LiveMeet.RDAP.Messages
             InitialiseFieldPositions();
         }
 
-        public KeyboardEventMessage(byte keyStroke, byte extraKeyStroke)
+        public KeyboardEventMessage(ushort virtualKeyCode, byte alt, byte control, byte shift)
         {
             using (var memoryStream = new MemoryStream())
             {
                 var writer = new BinaryWriter(memoryStream);
-                writer.Write(keyStroke);
-                writer.Write(extraKeyStroke);
+                writer.Write(virtualKeyCode);
+                writer.Write(alt);
+                writer.Write(control);
+                writer.Write(shift);
 
                 messageBuffer = memoryStream.ToArray();
             }
@@ -33,24 +40,30 @@ namespace TW.LiveMeet.RDAP.Messages
 
         private void InitialiseFieldPositions()
         {
-            keyStrokePosition = 0;
-            extraKeyStrokePosition = keyStrokePosition + KEY_STROKE_LENGTH;
+            virtualKeyCodePosition = 0;
+            altPosition = virtualKeyCodePosition + VIRTUAL_KEY_CODE_LENGTH;
+            controlPosition = altPosition + ALT_LENGTH;
+            shiftPosition = controlPosition + CONTROL_LENGTH;
         }    
         
-        public byte KeyStroke
+        public ushort VirtualKeyCode
         {
-            get { return messageBuffer[keyStrokePosition]; }
+            get { return BitConverter.ToUInt16(messageBuffer, virtualKeyCodePosition); }
         }
 
-        public byte ExtraKeyStroke
+        public byte Alt
         {
-            get { return messageBuffer[extraKeyStrokePosition]; }
+            get { return messageBuffer[altPosition]; }
         }
 
+        public byte Control
+        {
+            get { return messageBuffer[controlPosition]; }
+        }
 
-        //public byte VirtualKeyCode { get; set; }
-        //public byte ScanCode { get; set; }
-        //public bool KeyDown { get; set; }
-        //public bool ExtendedKey { get; set; }
+        public byte Shift
+        {
+            get { return messageBuffer[shiftPosition]; }
+        }
     }
 }

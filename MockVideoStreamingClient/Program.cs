@@ -13,7 +13,7 @@ namespace MockVideoStreamingClient
     {
         static void Main()
         {
-            var publisher = new TcpSocketClient();
+            var publisher = new TcpSocketClient(8000);
             publisher.Connect(new IPEndPoint(IPAddress.Loopback, 5000));
 
             var cam = new VideoCapture(0, 15, 160, 120);

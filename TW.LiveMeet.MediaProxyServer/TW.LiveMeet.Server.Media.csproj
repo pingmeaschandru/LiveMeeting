@@ -57,6 +57,8 @@
     <Compile Include="TcpConnectionPoint.cs" />
     <Compile Include="ConnectionPointRegistrator.cs" />
     <Compile Include="MeetingBridgeSubscribers.cs" />
+    <Compile Include="UdpConnectionPoint.cs" />
+    <Compile Include="UdpMeetingBridgeAgent.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TW.Core\TW.Core.csproj">

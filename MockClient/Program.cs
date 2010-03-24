@@ -2,34 +2,44 @@
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.Net;
-using TW.Coder;
+using System.Runtime.InteropServices;
 using TW.Core.Sockets;
 using TW.LiveMeet.DesktopAgent.Command;
 
-namespace MockClient
+namespace MockDesktopStreamingClient
 {
     class Program
     {
-        static void Main(string[] args)
+        [DllImport("crtdll.dll")]
+        public static extern int _kbhit();
+
+        static void Main()
         {
-            var publisher = new TcpSocketClient();
-            publisher.Connect(new IPEndPoint(IPAddress.Loopback, 5000));
+            Console.Write("Enter IP Address : ");
+            var strIPAddress = Console.ReadLine();
+
+            Console.Write("Enter Port : ");
+            var strPort = Console.ReadLine();
+            var port = int.Parse(strPort);
+
+            var publisher = new TcpSocketClient(8000);
+            publisher.Connect(new IPEndPoint(IPAddress.Parse(strIPAddress), port));
             
             var dCapture = new DesktopCapture(PixelFormat.Format24bppRgb, new Size(640, 400));
 
             var ss = new SocketStorage(publisher, dCapture); 
             
+            Console.WriteLine("Press Enter To Start streaming....");
+
             Console.ReadLine();
 
-            for (var i = 0; i < 200000000; i++)
+            Console.WriteLine("Press any Key To Exit....");
+
+            while (_kbhit() == 0)
             {
-                //Thread.Sleep(500);
                 var frame = dCapture.Execute();
                 ss.Process(frame);
             }
-
-
-            Console.ReadLine();
         }
     }
 }

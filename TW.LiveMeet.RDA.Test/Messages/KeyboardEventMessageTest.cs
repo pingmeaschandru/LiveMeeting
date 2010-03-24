@@ -9,17 +9,19 @@ namespace TW.LiveMeet.RDAP.Test.Messages
         [Test]
         public void ShouldAbleToRetriveVariablesFromBytes()
         {
-            var messageBuffer = new byte[] {1, 4};
+            var messageBuffer = new byte[] {1, 0, 0, 1, 0};
             var message = new KeyboardEventMessage(messageBuffer);
-            Assert.AreEqual(1, message.KeyStroke);
-            Assert.AreEqual(4, message.ExtraKeyStroke);
+            Assert.AreEqual(1, message.VirtualKeyCode);
+            Assert.AreEqual(0, message.Alt);
+            Assert.AreEqual(1, message.Control);
+            Assert.AreEqual(0, message.Shift);
         }
 
         [Test]
         public void ShouldAbleToBytesFromRetriveVariables()
         {
-            var message = new KeyboardEventMessage(1, 4);
-            var messageBuffer = new byte[] {1, 4};
+            var message = new KeyboardEventMessage(1, 0, 1, 0);
+            var messageBuffer = new byte[] { 1, 0, 0, 1, 0 };
             var messageBufferToCompare = message.ToBytes();
 
             Assert.AreEqual(messageBuffer.Length, messageBufferToCompare.Length);
@@ -34,7 +36,7 @@ namespace TW.LiveMeet.RDAP.Test.Messages
         [Test]
         public void TwoConsecutiveCallsWhichReturnsMessageBuffersShouldNotBeSame()
         {
-            var message = new KeyboardEventMessage(1, 4);
+            var message = new KeyboardEventMessage(1, 0, 1, 0);
 
             var messageBuffer1 = message.ToBytes();
             var messageBuffer2 = message.ToBytes();

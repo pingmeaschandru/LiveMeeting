@@ -11,7 +11,7 @@ namespace MockAudioStreamingClient
 {
     public class Program
     {
-        public static TcpSocketClient  publisher = new TcpSocketClient();
+        public static TcpSocketClient  publisher = new TcpSocketClient(8000);
         
         static void Main()
         {
@@ -19,7 +19,7 @@ namespace MockAudioStreamingClient
 
             Console.ReadLine();
             
-            var recorder = new WaveInRecorder(-1, new Winmm.WaveFormat(44100, 16, 2), 16384, 3, DataArrived);
+            var recorder = new WaveInRecorder(-1, new WaveFormat(44100, 16, 2), 16384, 3, DataArrived);
 
             Console.ReadLine();
 

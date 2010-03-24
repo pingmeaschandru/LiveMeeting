@@ -12,14 +12,14 @@ namespace TW.WaveLib
         private readonly AutoResetEvent playEvent = new AutoResetEvent(false);
         private readonly IntPtr waveOut;
 
-        private Winmm.WaveHdr header;
+        private WaveHdr header;
         private readonly byte[] headerData;
         private GCHandle headerHandle;
         private GCHandle headerDataHandle;
 
         private bool m_Playing;
 
-        internal static void WaveOutProc(IntPtr hdrvr, int uMsg, int dwUser, ref Winmm.WaveHdr wavhdr, int dwParam2)
+        internal static void WaveOutProc(IntPtr hdrvr, int uMsg, int dwUser, ref WaveHdr wavhdr, int dwParam2)
         {
             if (uMsg == Winmm.MM_WOM_DONE)
             {

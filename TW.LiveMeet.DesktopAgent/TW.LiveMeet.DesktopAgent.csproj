@@ -55,6 +55,7 @@
     <Compile Include="Command\MouseRight.cs" />
     <Compile Include="DesktopCaptureFileStorage.cs" />
     <Compile Include="IDesktopCaptureStorage.cs" />
+    <Compile Include="KeyboardInputSimulator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

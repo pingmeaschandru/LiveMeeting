@@ -14,15 +14,15 @@ namespace TW.H264Coder.Test
         [Test]
         public void ShouldAbleToConvertRgbToH264()
         {
-            //var image = (Bitmap)Image.FromFile("Test.jpg");
-            //var image1 = (Bitmap)ImageHelper.Resize(image, new Size(704, 576));
-            //var finalImage = ImageHelper.Clone(image1, PixelFormat.Format24bppRgb);
-            //var rgbFrame = RgbFrameFactory.CreateFrame(finalImage);
-            //var converter = new RGB24ToYUV420Converter();
-            //var yuvFrame = (YuvFrame)converter.Process(rgbFrame);
+            var image = (Bitmap)Image.FromFile("Test.jpg");
+            var image1 = (Bitmap)ImageHelper.Resize(image, new Size(352, 288));
+            var finalImage = ImageHelper.Clone(image1, PixelFormat.Format24bppRgb);
+            var rgbFrame = RgbFrameFactory.CreateFrame(finalImage);
+            var converter = new RGB24ToYUV420Converter();
+            var yuvFrame = (YuvFrame)converter.Process(rgbFrame);
 
-            //var vs = new VideoSequence(YuvFormatType.Yuv420, new Size(yuvFrame.Width, yuvFrame.Height));
-            //vs.Encode(yuvFrame.Data);
+            var vs = new VideoSequence(YuvFormatType.Yuv420, new Size(yuvFrame.Width, yuvFrame.Height));
+            vs.Encode(yuvFrame.Data);
         }
     }
 }

@@ -80,7 +80,7 @@ namespace TW.H264Coder.ParameterSet
             stream.WriteU1(deblockingFilterControlPresentFlag);
             stream.WriteU1(constrainedIntraPredFlag);
             stream.WriteU1(redundantPicCntPresentFlag);
-            // copies the last couple of bits into the byte buffer
+            // copies the last couple of bits into the byte Buffer
             stream.Close();
 
             return (int)(stream.Length / 8);

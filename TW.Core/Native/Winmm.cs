@@ -5,36 +5,6 @@ namespace TW.Core.Native
 {
     public class Winmm
     {
-        public enum WaveFormats
-        {
-            Pcm = 1,
-            Float = 3
-        }
-
-        [StructLayout(LayoutKind.Sequential)]
-        public class WaveFormat
-        {
-            public short wFormatTag;
-            public short nChannels;
-            public int nSamplesPerSec;
-            public int nAvgBytesPerSec;
-            public short nBlockAlign;
-            public short wBitsPerSample;
-            public short cbSize;
-
-            public WaveFormat(int rate, int bits, int channels)
-            {
-                wFormatTag = (short)WaveFormats.Pcm;
-                nChannels = (short)channels;
-                nSamplesPerSec = rate;
-                wBitsPerSample = (short)bits;
-                cbSize = 0;
-
-                nBlockAlign = (short)(channels * (bits / 8));
-                nAvgBytesPerSec = nSamplesPerSec * nBlockAlign;
-            }
-        }
-
         public const int MMSYSERR_NOERROR = 0;
         public const int MM_WIM_DATA = 0x3C0;
         public const int MM_WOM_OPEN = 0x3BB;
@@ -46,19 +16,6 @@ namespace TW.Core.Native
         public const int TIME_BYTES = 0x0004; 
 
         public delegate void WaveDelegate(IntPtr hdrvr, int uMsg, int dwUser, ref WaveHdr wavhdr, int dwParam2);
-
-        [StructLayout(LayoutKind.Sequential)]
-        public struct WaveHdr
-        {
-            public IntPtr lpData; 
-            public int dwBufferLength; 
-            public int dwBytesRecorded; 
-            public IntPtr dwUser; 
-            public int dwFlags; 
-            public int dwLoops; 
-            public IntPtr lpNext;
-            public int reserved;
-        }
 
         [DllImport("winmm.dll")]
         public static extern int waveOutGetNumDevs();

@@ -42,10 +42,5 @@ namespace TW.LiveMeet.Server.Streaming.Rules
 
             return StateType.PLAYING;
         }
-
-        protected override string OnPlayingState(IEventMessage message)
-        {
-            return StateType.PLAYING;
-        }
     }
 }

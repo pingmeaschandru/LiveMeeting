@@ -22,13 +22,13 @@ namespace TW.LiveMeet.DesktopAgent.Command
 
         public void Execute()
         {
-            var rightdown = (uint)User32.Flags.Rightdown;
-            var rightup = (uint)User32.Flags.Rightup;
+            var rightdown = (uint)MouseEventFlags.Rightdown;
+            var rightup = (uint)MouseEventFlags.Rightup;
 
             if (button == 1)
             {
-                rightdown = (uint)User32.Flags.Leftdown;
-                rightup = (uint)User32.Flags.Leftup;
+                rightdown = (uint)MouseEventFlags.Leftdown;
+                rightup = (uint)MouseEventFlags.Leftup;
             }
 
             User32.SetCursorPos(startx, starty);

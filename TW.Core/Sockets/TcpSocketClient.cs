@@ -9,18 +9,16 @@ namespace TW.Core.Sockets
         public event EventHandler<SocketMessageEventArgs> OnDataRecieved = delegate { };
         public event EventHandler<SocketExceptionEventArgs> OnExceptionThrown = delegate { };
 
-        public TcpSocketClient()
+        public TcpSocketClient(int buffSize)
+            : base(buffSize, new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp))
         {
-            buffer = new byte[80000];
-            socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            ConnectionId = Guid.NewGuid().ToString();
+            socket.NoDelay = true;
         }
 
-        public TcpSocketClient(Socket clientSocket)
+        public TcpSocketClient(int buffSize, Socket clientSocket)
+            : base(buffSize, clientSocket)
         {
-            buffer = new byte[80000];
-            socket = clientSocket;
-            ConnectionId = Guid.NewGuid().ToString();
+            socket.NoDelay = true;
             Receive();
         }
 
@@ -55,12 +53,12 @@ namespace TW.Core.Sockets
         {
             try
             {
-                socket.BeginReceive(buffer, 
+                socket.BeginReceive(Buffer, 
                     0, 
-                    buffer.Length, 
+                    Buffer.Length, 
                     SocketFlags.None, 
                     new AsyncCallback(OnReceive), 
-                    buffer);
+                    Buffer);
             }
             catch (Exception ex)
             {
@@ -80,7 +78,7 @@ namespace TW.Core.Sockets
                     var buf = new byte[numRead];
                     Array.Copy(data, 0, buf, 0, buf.Length);
 
-                    OnDataRecieved(this, new SocketMessageEventArgs(this, buf));
+                    OnDataRecieved(this, new SocketMessageEventArgs(buf, RemoteEndPoint, LocalEndPoint));
 
                     Receive();
                 }
@@ -121,7 +119,5 @@ namespace TW.Core.Sockets
                 OnExceptionThrown(this, new SocketExceptionEventArgs(ex));
             }
         }
-
-        public string ConnectionId { get; private set;}
     }
 }

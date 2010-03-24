@@ -21,7 +21,7 @@ namespace TW.WaveLib
             get { return Winmm.waveOutGetNumDevs(); }
         }
 
-        public WaveOutPlayer(int device, Winmm.WaveFormat format, int bufferSize, int bufferCount, BufferFillEventHandler fillProc)
+        public WaveOutPlayer(int device, WaveFormat format, int bufferSize, int bufferCount, BufferFillEventHandler fillProc)
         {
             zero = format.wBitsPerSample == 8 ? (byte)128 : (byte)0;
             this.fillProc = fillProc;

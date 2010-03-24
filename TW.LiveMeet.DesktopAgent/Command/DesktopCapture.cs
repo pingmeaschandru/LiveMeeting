@@ -5,6 +5,7 @@ using System.Runtime.InteropServices;
 using TW.Coder;
 using TW.Core.Helper;
 using TW.Core.Native;
+using Rectangle=System.Drawing.Rectangle;
 
 namespace TW.LiveMeet.DesktopAgent.Command
 {
@@ -23,7 +24,7 @@ namespace TW.LiveMeet.DesktopAgent.Command
             this.imageSize = imageSize;
 
             desktopHandle = User32.GetDesktopWindow();
-            var windowRect = new User32.Rectangle();
+            var windowRect = new Core.Native.Rectangle();
             User32.GetWindowRect(desktopHandle, ref windowRect);
             var desktopWidth = windowRect.Right - windowRect.Left;
             var desktopHeight = windowRect.Bottom - windowRect.Top;
@@ -61,7 +62,7 @@ namespace TW.LiveMeet.DesktopAgent.Command
 
         private Bitmap CaptureCursor(ref int x, ref int y)
         {
-            var ci = new User32.CURSORINFO();
+            var ci = new CursorInfo();
             ci.cbSize = Marshal.SizeOf(ci);
             if (!User32.GetCursorInfo(out ci))
                 return null;
@@ -69,7 +70,7 @@ namespace TW.LiveMeet.DesktopAgent.Command
             if (ci.flags != User32.CURSOR_SHOWING)
                 return null;
 
-            User32.ICONINFO icInfo;
+            IconInfo icInfo;
             var hicon = User32.CopyIcon(ci.hCursor);
             if (!User32.GetIconInfo(hicon, out icInfo))
                 return null;

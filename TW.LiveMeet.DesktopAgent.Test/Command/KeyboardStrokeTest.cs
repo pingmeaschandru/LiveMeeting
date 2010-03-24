@@ -9,7 +9,7 @@ namespace TW.LiveMeet.DesktopAgent.Test.Command
         [Test]
         public void ShouldFireLeftButtonMouseDragEvent()
         {
-            var command = new KeyboardStroke('c');
+            var command = new KeyboardStroke(0x40, false, false,false);
             command.Execute();
         }
     }

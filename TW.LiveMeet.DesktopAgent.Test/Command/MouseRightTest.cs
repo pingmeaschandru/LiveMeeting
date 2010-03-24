@@ -2,6 +2,7 @@
 using NUnit.Framework;
 using TW.Core.Native;
 using TW.LiveMeet.DesktopAgent.Command;
+using Point=System.Drawing.Point;
 
 namespace TW.LiveMeet.DesktopAgent.Test.Command
 {

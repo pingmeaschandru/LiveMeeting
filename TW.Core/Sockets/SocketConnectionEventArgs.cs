@@ -2,11 +2,11 @@ using System;
 
 namespace TW.Core.Sockets
 {
-    public class SocketEventArgs : EventArgs
+    public class SocketConnectionEventArgs : EventArgs
     {
         public SocketBase Socket { get; set; }
 
-        public SocketEventArgs(SocketBase socket)
+        public SocketConnectionEventArgs(SocketBase socket)
         {
             Socket = socket;
         }

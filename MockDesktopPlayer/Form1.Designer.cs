@@ -1,4 +1,6 @@
-﻿namespace MockDesktopPlayer
+﻿using System.Windows.Forms;
+
+namespace MockDesktopPlayer
 {
     partial class Form1
     {
@@ -45,6 +47,9 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.KeyPress_Load);
+            this.Closed += new System.EventHandler(Form1_Closed);
+            //this.KeyPress += new KeyPressEventHandler(Form1_KeyPress);
+            this.KeyDown += new KeyEventHandler(Form1_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
         }

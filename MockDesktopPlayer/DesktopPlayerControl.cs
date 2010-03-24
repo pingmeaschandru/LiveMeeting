@@ -35,13 +35,21 @@ namespace MockDesktopPlayer
         private void play(object sender, EventArgs e)
         {
             if (subscriber != null) return;
-            subscriber = new TcpSocketClient();
-            subscriber.Connect(new IPEndPoint(IPAddress.Loopback, 5001));//(IPAddress.Parse("10.7.3.160"), 5001));
+            subscriber = new TcpSocketClient(8000);
+            subscriber.Connect(new IPEndPoint(IPAddress.Parse(textBox1.Text), int.Parse(textBox2.Text)));
             subscriber.OnDataRecieved += OnDataRecieved;
         }
 
         private void stop(object sender, EventArgs e)
         {
+        }
+
+        public void Close()
+        {
+            if (subscriber != null)
+                subscriber.Close();
+
+            subscriber = null;
         }
 
         private void RenderBitmap(Image bitmap)
@@ -124,9 +132,13 @@ namespace MockDesktopPlayer
                 subscriber.Send(dataToSend, 0, dataToSend.Length);  
         }
 
-        public void SendKeyEvent(char c)
+        public void SendKeyEvent(ushort code, bool alt, bool control, bool shift)
         {
-            var eventMessage = new KeyboardEventMessage((byte) c, 0x00);
+            var eventMessage = new KeyboardEventMessage(code, 
+                (byte) (alt ? 1 : 0),
+                (byte) (control ? 1 : 0),
+                (byte) (shift ? 1 : 0)
+                );
             var messageRdap = new RdapMessage(RdapMessageType.KeyboardEventMessage, eventMessage.ToBytes());
             var dataToSend = messageRdap.ToBytes();
 

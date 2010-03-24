@@ -13,7 +13,7 @@ namespace TW.LiveMeet.Server.Common.Connection.Tcp
         {
             this.registrator = registrator;
             this.connectionFactory = connectionFactory;
-            tcpListener = new TcpSocketServer();
+            tcpListener = new TcpSocketServer(2048);
         }
 
         public void Start(int port)
@@ -28,7 +28,7 @@ namespace TW.LiveMeet.Server.Common.Connection.Tcp
             Close();
         }
 
-        private void OnNewConnection(object sender, SocketEventArgs e)
+        private void OnNewConnection(object sender, SocketConnectionEventArgs e)
         {
             var tcpSocketClient = e.Socket as TcpSocketClient;
             if (tcpSocketClient == null)

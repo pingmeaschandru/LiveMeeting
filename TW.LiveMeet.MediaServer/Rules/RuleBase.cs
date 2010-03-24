@@ -27,8 +27,8 @@ namespace TW.LiveMeet.Server.Streaming.Rules
             return !actionPool.TryGetValue(currentState, out handler) ? currentState : handler(message);
         }
 
-        protected abstract string OnInitState(IEventMessage message);
-        protected abstract string OnReadyState(IEventMessage message);
-        protected abstract string OnPlayingState(IEventMessage message);
+        protected virtual string OnInitState(IEventMessage message) { return StateType.INIT; }
+        protected virtual string OnReadyState(IEventMessage message) { return StateType.READY; }
+        protected virtual string OnPlayingState(IEventMessage message) { return StateType.PLAYING; }
     }
 }

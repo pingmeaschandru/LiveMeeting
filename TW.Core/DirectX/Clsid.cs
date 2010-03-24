@@ -21,10 +21,10 @@ namespace TW.Core.DirectX
         /// <summary> CLSID_DvdGraphBuilder, DVD graph builder </summary>
         public static readonly Guid DvdGraphBuilder = new Guid(0xFCC152B7, 0xF372, 0x11d0, 0x8E, 0x00, 0x00, 0xC0, 0x4F, 0xD7, 0xC0, 0x8B);
 
-        /// <summary> CLSID_StreamBufferSink, stream buffer sink </summary>
+        /// <summary> CLSID_StreamBufferSink, stream Buffer sink </summary>
         public static readonly Guid StreamBufferSink = new Guid("2db47ae5-cf39-43c2-b4d6-0cd8d90946f4");
 
-        /// <summary> CLSID_StreamBufferSource, stream buffer sink </summary>
+        /// <summary> CLSID_StreamBufferSource, stream Buffer sink </summary>
         public static readonly Guid StreamBufferSource = new Guid("c9f5fe02-f851-4eb5-99ee-ad602af1e619");
 
         /// <summary> CLSID_VideoMixingRenderer, video mixing renderer 7 </summary>

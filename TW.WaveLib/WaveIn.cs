@@ -12,14 +12,14 @@ namespace TW.WaveLib
         private readonly AutoResetEvent recordEvent = new AutoResetEvent(false);
         private readonly IntPtr waveIn;
 
-        private Winmm.WaveHdr header;
+        private WaveHdr header;
         private readonly byte[] headerData;
         private GCHandle headerHandle;
         private GCHandle headerDataHandle;
 
         private bool recording;
 
-        internal static void WaveInProc(IntPtr hdrvr, int uMsg, int dwUser, ref Winmm.WaveHdr wavhdr, int dwParam2)
+        internal static void WaveInProc(IntPtr hdrvr, int uMsg, int dwUser, ref WaveHdr wavhdr, int dwParam2)
         {
             if (uMsg == Winmm.MM_WIM_DATA)
             {

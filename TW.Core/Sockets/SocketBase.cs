@@ -1,3 +1,4 @@
+using System;
 using System.Net;
 using System.Net.Sockets;
 
@@ -5,11 +6,14 @@ namespace TW.Core.Sockets
 {
     public abstract class SocketBase
     {
-        public const int MAX_BUFF_SIZE = 2048;
-        public const int BACKLOG = 10;
-
         protected Socket socket;
-        protected byte[] buffer;
+
+        protected SocketBase(int buffSize, Socket socket)
+        {
+            Buffer = new byte[buffSize];
+            this.socket = socket;
+            ConnectionId = Guid.NewGuid().ToString();
+        }
 
         public EndPoint RemoteEndPoint
         {
@@ -20,5 +24,8 @@ namespace TW.Core.Sockets
         {
             get { return socket != null ? socket.LocalEndPoint : null; }
         }
+
+        public byte[] Buffer { get; protected set; }
+        public string ConnectionId { get; protected set; }
     }
 }
